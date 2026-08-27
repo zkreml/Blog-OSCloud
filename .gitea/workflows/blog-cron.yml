@@ -1,0 +1,29 @@
+name: blog-cron
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: install ruby
+        run: sudo apt-get update && sudo apt-get install -y ruby-full
+      - name: create env.sh
+        run: |
+          cp env.sh.example env.sh
+          chmod 600 env.sh
+          echo "export SITE_BASE_URL=https://blog.oscloud.cz" >> env.sh
+          echo "export MASTODON_ACCESS_TOKEN=${{ secrets.MASTODON_ACCESS_TOKEN }}" >> env.sh
+          echo "export DEPLOY_BACKEND=surfer" >> env.sh
+          echo "export SURFER_URL=https://blog.oscloud.cz" >> env.sh
+          echo "export SURFER_TOKEN=${{ secrets.SURFER_TOKEN }}" >> env.sh
+          echo "export SURFER_REMOTE_DIR=" >> env.sh
+      - name: build and deploy
+        run: ./blog.sh rebuild
+      - name: refresh sidebar
+        run: ./scripts/refresh-sidebar.sh
+      - name: publish scheduled
+        run: ./scripts/publish-scheduled.sh
