@@ -107,3 +107,6 @@ widgets:
     username: "Archos"
     limit: 5
     instance: "https://git.arch-linux.cz"
+analytics:
+  src: "https://analytics.oscloud.cz/script.js"
+  website_id: "70aaf052-385c-41fb-9cfe-d3b3c6f54f2d"
