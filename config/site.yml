@@ -93,7 +93,7 @@ comments:
 widgets:
   rss:
     heading: "Z Fediverse"
-    feed_url: "https://mamutovo.cz/@oscloud/feed.rss"
+    feed_url: "https://mamutovo.cz/@oscloud.rss"
     limit: 5
   toots:
     heading: "Poslední tooty"
