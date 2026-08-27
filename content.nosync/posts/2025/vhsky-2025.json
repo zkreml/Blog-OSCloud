@@ -1,0 +1,239 @@
+{
+  "slug": "vhsky-2025",
+  "title": "VHSky.cz – ohlédnutí za rokem 2025 🎬",
+  "date": "2025-12-13T00:00:00+01:00",
+  "state": "published",
+  "tags": [
+    "vhsky",
+    "peertube"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "text": "VHSky.cz vzniklo jako PeerTube instance pro komunitní videoobsah. Rok 2025 byl prvním rokem, kdy se ukázalo, že má smysl projekt dělat dál."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Proč vlastně PeerTube? 🤔"
+    },
+    {
+      "type": "text",
+      "text": "YouTube se stal faktickým monopolem na video hosting. Pravidla se mění podle toho, jak se to hodí korporátu, algoritmy rozhodují o tom, co se dostane k divákům, a celý systém stojí na centralizovaném modelu, který tvůrcům dává minimální kontrolu."
+    },
+    {
+      "type": "text",
+      "text": "VHSky.cz vzniklo jako alternativa pro ty, kteří chtějí publikovat videa bez reklam, bez sledování a bez závislosti na jedné komerční platformě. Ne jako náhrada YouTube, ale jako svobodná možnost vedle něj."
+    },
+    {
+      "type": "text",
+      "text": "PeerTube umožňuje provozovat vlastní instanci, mít kontrolu nad obsahem i pravidly a nestavět projekt na komerčních algoritmech. Decentralizace, open source a vlastní data nejsou slogan, ale základní princip."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Čísla, která mluví 📊"
+    },
+    {
+      "type": "text",
+      "text": "Za rok jsme překonali hranici 20 000 zhlédnutí (aktuálně 20 191). Na instanci je 809 videí, 330 registrovaných uživatelů a 340 komentářů. Celkem hostujeme přes 500 GB video obsahu."
+    },
+    {
+      "type": "text",
+      "text": "Nejde o závratná čísla ve srovnání s YouTube, ale ukazují, že komunita roste organicky a že obsah má pro lidi smysl."
+    },
+    {
+      "type": "text",
+      "text": "<img src=\"/images/vhsky.png\" alt=\"Statistiky platformy\" width=\"600\">"
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co fungovalo ✅"
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Technické zázemí"
+    },
+    {
+      "type": "text",
+      "text": "Během roku jsme přesunuli média na S3 úložiště u společnosti Hetzner. Pro diváky jde o neviditelnou změnu, ale technicky o zásadní krok – data jsou oddělená od aplikačního serveru a zálohování je výrazně jednodušší a spolehlivější.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://www.hetzner.com/",
+          "start": 61,
+          "end": 68
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "U stejného poskytovatele běží také VPS s runnerem, který zajišťuje náročnější úlohy, například automatické generování titulků. Díky tomu může hlavní instance zůstat lehká a stabilní i při vyšší zátěži."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Komunitní spolupráce 🤝"
+    },
+    {
+      "type": "text",
+      "text": "Společně se nám podařilo připravit českou verzi videa, které slouží jako barvitý úvod do světa sociální sítě Fediverse. Video představuje alternativní pohled na sociální média – s respektem k soukromí, důrazem na uživatele a bez vlivu velkých technologických firem."
+    },
+    {
+      "type": "text",
+      "text": "Na překladu a zpracování se podíleli:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "autor videa: Elena Rossini a tým",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://mastodon.social/@_elena",
+              "start": 13,
+              "end": 26
+            }
+          ]
+        },
+        {
+          "text": "produkce: Jan Dytrych",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://social.dytrych.cloud/@jan",
+              "start": 10,
+              "end": 21
+            }
+          ]
+        },
+        {
+          "text": "dabing: Zloběna",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://mastodon.arch-linux.cz/@Onqa6",
+              "start": 8,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "text": "časování audia: Schmaker",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://schmaker.eu/profile/schmaker",
+              "start": 16,
+              "end": 24
+            }
+          ]
+        },
+        {
+          "text": "skript: Jann"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "<iframe title=\"Úvod do Fediverse: Moderní podoby sociální sítě\" width=\"560\" height=\"315\" src=\"https://vhsky.cz/videos/embed/hNuFEJwjbcubMgsVnqtoXz\" style=\"border: 0px;\" allow=\"fullscreen\" sandbox=\"allow-same-origin allow-scripts allow-popups allow-forms\"></iframe>"
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "OpenAlt 2025"
+    },
+    {
+      "type": "text",
+      "text": "OpenAlt byl pro VHSky.cz největší technickou zkouškou. Bylo dopředu jasné, že samotný server instance by kompletní streamování a transkódování všech přednášek nezvládl. PeerTube naštěstí umožňuje využít vzdálené runnery, které převezmou výpočetně náročné úlohy."
+    },
+    {
+      "type": "text",
+      "text": "Zásadní ale je, že transkódování nelze kombinovat – buď běží celé lokálně, nebo celé na runnerech. Bylo tedy nutné zajistit dostatek výkonu, který by pokryl vše. Díky vstřícnosti Adama Štraucha a týmu z rosti.cz jsme mohli využít zapůjčený výkonný stroj, na kterém běžel samostatný runner určený výhradně pro OpenAlt."
+    },
+    {
+      "type": "text",
+      "text": "Díky tomuto zázemí se podařilo všechny přednášky odstreamovat."
+    },
+    {
+      "type": "text",
+      "text": "<iframe title=\"PeerTube - software za Vhsky.cz (Jiří Eischmann)\" width=\"560\" height=\"315\" src=\"https://vhsky.cz/videos/embed/dpzeh2rWGrqMvWG9gU9RoP\" style=\"border: 0px;\" allow=\"fullscreen\" sandbox=\"allow-same-origin allow-scripts allow-popups allow-forms\"></iframe>"
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Poděkování 🙏"
+    },
+    {
+      "type": "text",
+      "text": "Velké poděkování patří moderátorům, kteří udržují komunitu funkční a atmosféru slušnou – zvlášť Schmakerovi za dlouhodobou a konzistentní práci.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://schmaker.eu/profile/schmaker",
+          "start": 96,
+          "end": 107
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Díky také Jiřímu Eischmannovi, bez kterého by VHSky.cz vůbec nevznikly.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://eischmann.cz/",
+          "start": 10,
+          "end": 29
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "A velké díky Adamu Štrauchovi a týmu z rosti.cz za poskytnutí výkonného zázemí pro OpenAlt runnery a za dlouhodobě vstřícný přístup k open-source projektům. Bez této podpory by streamování OpenAltu v takovém rozsahu nebylo možné.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://rosti.cz/",
+          "start": 39,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co dál 🚀"
+    },
+    {
+      "type": "text",
+      "text": "Pokračovat v obsahu a dál zapojovat komunitu – i tady patří velký dík Schmakerovi, který na tom odvádí obrovský kus práce."
+    },
+    {
+      "type": "text",
+      "text": "Pokud to vyjde, rádi bychom se příští rok znovu objevili na OpenAltu – s větším klidem a zkušenostmi z letoška."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Závěr"
+    },
+    {
+      "type": "text",
+      "text": "VHSky.cz není o číslech, reklamě ani honbě za rychlým růstem. Dává smysl tehdy, když dává smysl lidem, kteří ho sledují, podporují nebo se na něm jakkoli podílejí. Rok 2025 ukázal, že tenhle přístup funguje."
+    },
+    {
+      "type": "text",
+      "text": "Díky všem, kteří u toho byli – ať už sledováním, pomocí, finanční podporou nebo obyčejnou zpětnou vazbou. Právě tohle drží projekt při životě. Pokračujeme dál."
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/VHSky-2025.md"
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "slug": "ente-photos-spusteni",
+  "title": "Ente Photos: end-to-end šifrovaná alternativa ke Google Photos je na OSCloud",
+  "date": "2026-08-07T00:00:00+02:00",
+  "state": "published",
+  "tags": [
+    "ente",
+    "fotky",
+    "e2ee",
+    "soukromí",
+    "self-hosting",
+    "Oznámení"
+  ],
+  "content": [
+    {
+      "type": "image",
+      "media": [
+        {
+          "url": "01.jpg",
+          "width": 1200,
+          "height": 675
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Spouštíme placenou instanci Ente Photos na oscloud.photos — end-to-end šifrovanou alternativu ke Google Photos a iCloud, kterou provozujeme sami, na vlastních serverech.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 28,
+          "end": 39
+        },
+        {
+          "type": "bold",
+          "start": 43,
+          "end": 57
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co je Ente Photos"
+    },
+    {
+      "type": "text",
+      "text": "Ente je open source (AGPL-3.0) platforma pro zálohování a sdílení fotek a videí, postavená tak, aby provozovatel k obsahu neměl technicky přístup. Šifrování probíhá přímo v zařízení ještě před nahráním na server — takže i my jako správci vidíme jen zašifrovaná data a to, kolik místa zabíráte. Klientské aplikace i server (museum) jsou open source a kryptografii si nechali nezávisle prověřit (Cure53, Symbolic Software)."
+    },
+    {
+      "type": "text",
+      "text": "Funkčně to není žádná odlehčená verze — má to, co byste čekali od Google Photos:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Automatické zálohování z mobilu na pozadí, včetně originální kvality a EXIF metadat",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        {
+          "text": "Alba a sdílení — sdílené odkazy fungují i pro lidi bez účtu na Ente, volitelně s heslem a expirací; odkaz lze nastavit i tak, že do alba mohou přidávat fotky bez registrace (kolaborativní album)",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 14
+            }
+          ]
+        },
+        {
+          "text": "Rodinný plán — sdílené úložiště s rodinou, ale každý má vlastní šifrování a soukromí",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "text": "Vyhledávání a rozpoznávání tváří — počítá se on-device, takže tenhle typ zpracování neopouští vaše zařízení nezašifrovaný",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 32
+            }
+          ]
+        },
+        {
+          "text": "Aplikace pro Android, iOS, desktop i web, vzájemně synchronizované",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Rozdíl oproti Google Photos je jasný — tam se fotky standardně analyzují a nejsou end-to-end šifrované. Oproti iCloud je Ente multiplatformní (funguje rozumně i na Androidu a Linuxu) a je to celé otevřený zdroj, takže si šifrování a chování aplikace může kdokoliv ověřit v kódu, ne jen věřit marketingu."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "⚠️ Než začnete: přečtěte si tohle"
+    },
+    {
+      "type": "text",
+      "text": "Šifrování je tu navržené tak, že k datům nemá přístup nikdo kromě vás — ani my. To má jednu tvrdou konsekvenci:",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 33,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "quote",
+      "text": "Pokud ztratíte heslo a zároveň obnovovací klíč (recovery key), vaše fotky jsou nenávratně pryč. Neexistuje \"zapomenuté heslo, pošleme vám nové\" — my ten klíč prostě nemáme a technicky ho ani mít nemůžeme.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 204
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Takže hned při registraci:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Zvolte heslo, které si zapamatujete, nebo si ho uložte do správce hesel"
+        },
+        {
+          "text": "Uložte si recovery key, který se zobrazí po registraci — vytištěný, nebo na místě, které přežije i výměnu telefonu",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        {
+          "text": "Nespoléhejte se na Ente jako na jedinou kopii vzpomínek. Mějte i nezávislou druhou zálohu důležitých fotek — externí disk, jiná služba, cokoliv mimo Ente"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Šifrování chrání soukromí, ale přenáší odpovědnost za přístupové údaje na vás. To je fér cena za to, že fotky opravdu nikdo jiný nevidí."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Ceník"
+    },
+    {
+      "type": "text",
+      "text": "10 GB je zdarma navždy. Placené tarify:"
+    },
+    {
+      "type": "table",
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "header": [
+        {
+          "text": "Úložiště"
+        },
+        {
+          "text": "Měsíčně"
+        },
+        {
+          "text": "Ročně"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": "50 GB"
+          },
+          {
+            "text": "49 Kč"
+          },
+          {
+            "text": "490 Kč"
+          }
+        ],
+        [
+          {
+            "text": "200 GB"
+          },
+          {
+            "text": "99 Kč"
+          },
+          {
+            "text": "990 Kč"
+          }
+        ],
+        [
+          {
+            "text": "1 TB"
+          },
+          {
+            "text": "199 Kč"
+          },
+          {
+            "text": "1 990 Kč"
+          }
+        ],
+        [
+          {
+            "text": "2 TB"
+          },
+          {
+            "text": "439 Kč"
+          },
+          {
+            "text": "4 390 Kč"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Rodinný plán umožňuje sdílet úložiště až s 5 členy bez příplatku — každý má vlastní šifrování, nikdo nikomu nevidí do fotek, sdílí se jen kapacita."
+    },
+    {
+      "type": "text",
+      "text": "Předplatné se kupuje pouze přes web (i na mobilu v prohlížeči), ne v aplikaci — to je omezení App Store/Google Play plateb u self-hosted instance, ne naše rozmar.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 21,
+          "end": 35
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Jak začít"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Zaregistrujte se na oscloud.photos a hned si uložte recovery key",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 20,
+              "end": 34
+            }
+          ]
+        },
+        {
+          "text": "Stáhněte appku pro váš systém (Android, iOS, desktop) a v ní 7× rychle klikněte na logo Ente při prvním spuštění — otevře se nastavení serveru"
+        },
+        {
+          "text": "Zadejte endpoint https://oscloud.photos",
+          "formatting": [
+            {
+              "type": "code",
+              "start": 17,
+              "end": 39
+            }
+          ]
+        },
+        {
+          "text": "Přihlaste se a povolte zálohování"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Kompletní návod krok za krokem, včetně screenshotů k nastavení serveru v jednotlivých aplikacích, sdílení alb a rodinného plánu, najdete v dokumentaci: docs.oscloud.cz/apps/ente-photos.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 152,
+          "end": 184
+        },
+        {
+          "type": "link",
+          "url": "https://docs.oscloud.cz/apps/ente-photos/",
+          "start": 152,
+          "end": 184
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Data běží na našich serverech u Hetzneru ve Falkensteinu, v Německu, v rámci EU."
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/ente-photos-spusteni.md"
+  }
+}

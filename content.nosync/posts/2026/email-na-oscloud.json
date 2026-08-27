@@ -1,0 +1,1449 @@
+{
+  "slug": "email-na-oscloud",
+  "title": "E-mail na OSCloud – kompletní průvodce pro uživatele",
+  "date": "2026-07-19T00:00:00+02:00",
+  "state": "published",
+  "tags": [
+    "e-mail",
+    "IMAP",
+    "SMTP",
+    "Thunderbird",
+    "webmail",
+    "soukromí",
+    "Návody"
+  ],
+  "content": [
+    {
+      "type": "image",
+      "media": [
+        {
+          "url": "01.jpg",
+          "width": 1920,
+          "height": 960
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ahoj komunito! Dneska se podíváme na jednu ze základních služeb, kterou OSCloud nabízí – e-mail. Vlastní e-mailová schránka bez závislosti na Googlu nebo Microsoftu, s respektem k vašemu soukromí a plnou kontrolou nad vašimi daty. Žádné profilování, žádné reklamy ve schránce, žádné skenování obsahu zpráv.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 89,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "V tomto článku vás provedeme od úplného začátku – co e-mail na OSCloud nabízí, jak se přihlásit přes webmail, jak nastavit Thunderbird, mobilní klienty a co dělat, když něco nefunguje."
+    },
+    {
+      "type": "text",
+      "text": "<!--more-->"
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co získáte"
+    },
+    {
+      "type": "text",
+      "text": "E-mailová schránka na OSCloud není jen adresa, na kterou vám chodí zprávy. Je to plnohodnotná e-mailová služba postavená na otevřených standardech, kterou můžete používat z libovolného zařízení a s libovolným e-mailovým klientem."
+    },
+    {
+      "type": "text",
+      "text": "Konkrétně získáte e-mailovou schránku s vlastní adresou na doméně OSCloud (například vas-nick@oscloud.cz), přístup přes webmail přímo v prohlížeči, plnou podporu protokolu IMAP pro synchronizaci e-mailů napříč zařízeními a SMTP pro odesílání zpráv. Veškerá komunikace je šifrovaná pomocí SSL/TLS, takže nikdo po cestě nemůže číst vaše e-maily. Můžete se přihlásit z počítače, telefonu i tabletu současně – vše se synchronizuje.",
+      "formatting": [
+        {
+          "type": "code",
+          "start": 85,
+          "end": 104
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Pro pokročilejší uživatele je tu možnost používat vlastní doménu, nastavit si e-mailové aliasy (alternativní adresy, které doručují do stejné schránky – stačí napsat administrátorovi, jaký alias chcete) a filtrovat příchozí poštu pomocí serverových pravidel (Sieve)."
+    },
+    {
+      "type": "text",
+      "text": "A hlavně – vaše data zůstávají na serveru v EU (Hetzner, Německo), pod kontrolou OSCloud komunity, bez profilování a bez prodeje dat třetím stranám."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co budete potřebovat"
+    },
+    {
+      "type": "text",
+      "text": "E-mailovou schránku na OSCloud vám vytváří administrátor. Pokud ještě nemáte e-mail na OSCloud, napište na helpdesk.oscloud.cz a sdělte, jakou e-mailovou adresu byste chtěli. Stejně tak pokud budete chtít e-mailový alias (alternativní adresu, která doručuje do stejné schránky) – stačí napsat administrátorovi, jaký alias potřebujete, a ten ho přidá.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://helpdesk.oscloud.cz/help/3020290644",
+          "start": 107,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Po vytvoření schránky budete potřebovat následující údaje pro nastavení e-mailového klienta:"
+    },
+    {
+      "type": "table",
+      "align": [
+        "left",
+        "left"
+      ],
+      "header": [
+        {
+          "text": "Údaj"
+        },
+        {
+          "text": "Příklad"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": "E-mailová adresa (= přihlašovací jméno)"
+          },
+          {
+            "text": "vas-nick@oscloud.cz",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 19
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "Heslo"
+          },
+          {
+            "text": "Vaše heslo k platformě OSCloud"
+          }
+        ],
+        [
+          {
+            "text": "IMAP server (příchozí pošta)"
+          },
+          {
+            "text": "my.oscloud.cz",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 13
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "IMAP port"
+          },
+          {
+            "text": "993",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 3
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "SMTP server (odchozí pošta)"
+          },
+          {
+            "text": "my.oscloud.cz",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 13
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "SMTP port"
+          },
+          {
+            "text": "587",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 3
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "Šifrování (IMAP)"
+          },
+          {
+            "text": "SSL/TLS"
+          }
+        ],
+        [
+          {
+            "text": "Šifrování (SMTP)"
+          },
+          {
+            "text": "STARTTLS"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "quote",
+      "text": "Tip: Přihlašovací jméno je vždy vaše plná e-mailová adresa, nikoli jen část před zavináčem. Heslo je stejné jako heslo k vašemu účtu na platformě OSCloud. Pokud si potřebujete heslo změnit, můžete tak udělat na my.oscloud.cz.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "type": "link",
+          "url": "https://my.oscloud.cz",
+          "start": 211,
+          "end": 224
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Pokud jste údaje nedostali nebo si je nepamatujete, kontaktujte podporu na helpdesk.oscloud.cz.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://helpdesk.oscloud.cz/help/3020290644",
+          "start": 75,
+          "end": 94
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Přístup přes webmail"
+    },
+    {
+      "type": "text",
+      "text": "Nejjednodušší způsob, jak začít používat e-mail, je přes webmail – webové rozhraní, které funguje přímo v prohlížeči. Nepotřebujete nic instalovat, stačí otevřít adresu a přihlásit se."
+    },
+    {
+      "type": "text",
+      "text": "Na OSCloud máte k dispozici dva webmailové klienty. Oba přistupují ke stejné schránce, takže je můžete střídat podle toho, co vám víc vyhovuje."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Roundcube – webmail.oscloud.cz"
+    },
+    {
+      "type": "text",
+      "text": "Roundcube je klasický, osvědčený webmail s čistým rozhraním. Je rychlý, přehledný a dobře se v něm orientuje i začátečník. Pokud jste zvyklí na jednoduché webmailové rozhraní (podobné třeba Seznamu), Roundcube vám bude vyhovovat.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://webmail.oscloud.cz",
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Velkou výhodou Roundcube na OSCloud je podpora GPG šifrování. To znamená, že si můžete přímo ve webmailu nastavit GPG klíče a odesílat i přijímat šifrované e-maily, které si nepřečte nikdo kromě vás a příjemce – ani administrátor serveru. Nastavení GPG klíčů najdete v nastavení Roundcube v sekci „Šifrování\" nebo „Encryption\".",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 47,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "SOGo – webmail.oscloud.online"
+    },
+    {
+      "type": "text",
+      "text": "SOGo je komplexnější řešení, které kromě e-mailu nabízí i kalendář, kontakty a úkoly v jednom rozhraní. Pokud hledáte náhradu za Google Workspace nebo Microsoft 365, SOGo je bližší tomu, na co jste zvyklí. Rozhraní je modernější a podporuje synchronizaci kalendáře a kontaktů přes CalDAV a CardDAV.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://webmail.oscloud.online/SOGo/",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "type": "bold",
+          "start": 58,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Přihlášení"
+    },
+    {
+      "type": "text",
+      "text": "Postup je u obou klientů stejný:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Otevřete adresu webmailu – webmail.oscloud.cz pro Roundcube nebo webmail.oscloud.online/SOGo/ pro SOGo.",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://webmail.oscloud.cz",
+              "start": 27,
+              "end": 45
+            },
+            {
+              "type": "link",
+              "url": "https://webmail.oscloud.online/SOGo/",
+              "start": 65,
+              "end": 93
+            }
+          ]
+        },
+        {
+          "text": "Zadejte svou plnou e-mailovou adresu jako přihlašovací jméno."
+        },
+        {
+          "text": "Zadejte heslo k platformě OSCloud."
+        },
+        {
+          "text": "Klikněte na tlačítko pro přihlášení."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Po přihlášení uvidíte svou doručenou poštu. Pokud jste někdy používali jakýkoli webmail (Gmail, Seznam, Outlook.com), budete se orientovat okamžitě."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Základní orientace"
+    },
+    {
+      "type": "text",
+      "text": "Webmail typicky obsahuje několik hlavních sekcí. V levém panelu najdete seznam složek – Doručená pošta (Inbox), Odeslaná pošta (Sent), Koncepty (Drafts), Koš (Trash) a Spam (Junk). Hlavní oblast zobrazuje seznam zpráv ve zvolené složce a po kliknutí na zprávu se otevře její obsah."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Psaní e-mailu"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Klikněte na tlačítko „Napsat\" nebo „Nová zpráva\" (většinou ikona tužky nebo obálky)."
+        },
+        {
+          "text": "Vyplňte adresu příjemce do pole „Komu\" (To)."
+        },
+        {
+          "text": "Napište předmět zprávy."
+        },
+        {
+          "text": "Napište text zprávy."
+        },
+        {
+          "text": "Pokud chcete přiložit soubor, použijte tlačítko přílohy (ikona sponky)."
+        },
+        {
+          "text": "Klikněte na „Odeslat\"."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "quote",
+      "text": "Tip: Pokud zprávu nedopíšete, uložte ji jako koncept – najdete ji pak ve složce Koncepty a můžete ji dokončit později.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 4
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Složky a organizace"
+    },
+    {
+      "type": "text",
+      "text": "Můžete si vytvářet vlastní složky pro organizaci pošty. Klikněte pravým tlačítkem na seznam složek a vyberte „Nová složka\". Zprávy pak přesouváte přetažením nebo přes kontextové menu."
+    },
+    {
+      "type": "text",
+      "text": "Webmail na OSCloud podporuje také serverové filtrování pomocí Sieve pravidel. To znamená, že si můžete nastavit automatické třídění – například všechny zprávy od konkrétního odesílatele přesunout do určité složky. Nastavení filtrů najdete obvykle v sekci „Filtry\" nebo „Pravidla\" v nastavení webmailu."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Kontakty"
+    },
+    {
+      "type": "text",
+      "text": "Webmail obsahuje jednoduchý adresář kontaktů. Můžete přidávat kontakty ručně nebo se automaticky ukládají z odeslaných zpráv. Při psaní e-mailu vám webmail nabízí doplnění adresy z adresáře."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Nastavení v Thunderbirdu"
+    },
+    {
+      "type": "text",
+      "text": "Thunderbird je bezplatný, otevřený e-mailový klient pro Windows, macOS i Linux. Je to jedna z nejlepších voleb pro práci s e-mailem na OSCloud – podporuje IMAP, má vestavěný kalendář a adresář a respektuje vaše soukromí."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Automatická konfigurace"
+    },
+    {
+      "type": "text",
+      "text": "Thunderbird umí v mnoha případech rozpoznat nastavení serveru automaticky:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Otevřete Thunderbird."
+        },
+        {
+          "text": "Pokud spouštíte Thunderbird poprvé, průvodce nastavením se otevře automaticky. Jinak jděte do Nastavení účtu → Akce účtu → Přidat poštovní účet.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 94,
+              "end": 108
+            },
+            {
+              "type": "bold",
+              "start": 111,
+              "end": 120
+            },
+            {
+              "type": "bold",
+              "start": 123,
+              "end": 143
+            }
+          ]
+        },
+        {
+          "text": "Vyplňte své jméno (jak se bude zobrazovat příjemcům), e-mailovou adresu a heslo."
+        },
+        {
+          "text": "Klikněte na Pokračovat. Thunderbird se pokusí automaticky najít správné nastavení serveru.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 12,
+              "end": 22
+            }
+          ]
+        },
+        {
+          "text": "Pokud autodetekce uspěje, zobrazí se nalezené nastavení IMAP a SMTP serveru. Ověřte, že odpovídá údajům od OSCloud, a klikněte na Hotovo.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 130,
+              "end": 136
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Ruční konfigurace"
+    },
+    {
+      "type": "text",
+      "text": "Pokud automatická konfigurace nefunguje (což se může stát u méně známých serverů), nastavte účet ručně:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "V průvodci nastavením klikněte na Ruční konfigurace.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 34,
+              "end": 51
+            }
+          ]
+        },
+        {
+          "text": "Vyplňte údaje podle následující tabulky:"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "header": [
+        {
+          "text": "Nastavení"
+        },
+        {
+          "text": "Příchozí pošta (IMAP)"
+        },
+        {
+          "text": "Odchozí pošta (SMTP)"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": "Server"
+          },
+          {
+            "text": "my.oscloud.cz",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 13
+              }
+            ]
+          },
+          {
+            "text": "my.oscloud.cz",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 13
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "Port"
+          },
+          {
+            "text": "993",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 3
+              }
+            ]
+          },
+          {
+            "text": "587",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 3
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "Šifrování"
+          },
+          {
+            "text": "SSL/TLS"
+          },
+          {
+            "text": "STARTTLS"
+          }
+        ],
+        [
+          {
+            "text": "Autentizace"
+          },
+          {
+            "text": "Normální heslo"
+          },
+          {
+            "text": "Normální heslo"
+          }
+        ],
+        [
+          {
+            "text": "Uživatelské jméno"
+          },
+          {
+            "text": "vas-nick@oscloud.cz",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 19
+              }
+            ]
+          },
+          {
+            "text": "vas-nick@oscloud.cz",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 0,
+                "end": 19
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Klikněte na Znovu otestovat – Thunderbird ověří spojení se serverem.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 12,
+              "end": 27
+            }
+          ]
+        },
+        {
+          "text": "Pokud test proběhne úspěšně, klikněte na Hotovo.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 41,
+              "end": 47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "quote",
+      "text": "Poznámka: Jako uživatelské jméno zadávejte vždy plnou e-mailovou adresu včetně domény, nikoli jen část před zavináčem.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Co dělat, když automatická konfigurace nefunguje"
+    },
+    {
+      "type": "text",
+      "text": "Thunderbird někdy nenajde správné nastavení automaticky. V takovém případě:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Ujistěte se, že jste správně zadali e-mailovou adresu a heslo."
+        },
+        {
+          "text": "Přepněte na ruční konfiguraci a zadejte údaje z tabulky výše."
+        },
+        {
+          "text": "Ověřte, že máte správný port a typ šifrování – IMAP musí být na portu 993 s SSL/TLS, SMTP na portu 587 se STARTTLS."
+        },
+        {
+          "text": "Pokud Thunderbird hlásí chybu certifikátu, neklikejte na „Přidat výjimku\", ale kontaktujte podporu OSCloud – certifikát by měl být platný."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Odeslání testovacího e-mailu"
+    },
+    {
+      "type": "text",
+      "text": "Po nastavení účtu je dobré ověřit, že vše funguje:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Klikněte na Napsat a vytvořte novou zprávu.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 12,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "Do pole „Komu\" zadejte svou vlastní adresu (nebo jinou adresu, ke které máte přístup)."
+        },
+        {
+          "text": "Napište libovolný předmět a text."
+        },
+        {
+          "text": "Klikněte na Odeslat.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 12,
+              "end": 19
+            }
+          ]
+        },
+        {
+          "text": "Zkontrolujte, zda zpráva dorazila do Doručené pošty."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Pokud zpráva dorazí, máte nastaveno správně – příchozí i odchozí pošta fungují."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Nastavení na Androidu"
+    },
+    {
+      "type": "text",
+      "text": "Na Androidu máte několik kvalitních otevřených e-mailových klientů na výběr. Doporučujeme:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Thunderbird Mobile (dříve K-9 Mail) – otevřený, bez reklam, plná podpora IMAP. Aktuálně nejlepší volba pro Android.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "FairEmail – pokročilý klient s důrazem na soukromí a šifrování.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "K-9 Mail – starší verze, ze které vychází Thunderbird Mobile. Stále funkční, ale doporučujeme přejít na Thunderbird.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Obecný postup nastavení"
+    },
+    {
+      "type": "text",
+      "text": "Postup je u většiny klientů velmi podobný:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Nainstalujte vybranou aplikaci z F-Droid nebo Google Play."
+        },
+        {
+          "text": "Otevřete aplikaci a vyberte Přidat účet (nebo se průvodce spustí automaticky).",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 28,
+              "end": 39
+            }
+          ]
+        },
+        {
+          "text": "Zadejte svou e-mailovou adresu a heslo."
+        },
+        {
+          "text": "Pokud aplikace nenajde nastavení automaticky, vyberte Ruční konfigurace a zadejte:",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 54,
+              "end": 71
+            }
+          ],
+          "children": {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              {
+                "text": "Typ účtu: IMAP",
+                "formatting": [
+                  {
+                    "type": "bold",
+                    "start": 10,
+                    "end": 14
+                  }
+                ]
+              },
+              {
+                "text": "IMAP server: my.oscloud.cz, port 993, šifrování SSL/TLS",
+                "formatting": [
+                  {
+                    "type": "code",
+                    "start": 13,
+                    "end": 26
+                  },
+                  {
+                    "type": "code",
+                    "start": 33,
+                    "end": 36
+                  },
+                  {
+                    "type": "bold",
+                    "start": 48,
+                    "end": 55
+                  }
+                ]
+              },
+              {
+                "text": "SMTP server: my.oscloud.cz, port 587, šifrování STARTTLS",
+                "formatting": [
+                  {
+                    "type": "code",
+                    "start": 13,
+                    "end": 26
+                  },
+                  {
+                    "type": "code",
+                    "start": 33,
+                    "end": 36
+                  },
+                  {
+                    "type": "bold",
+                    "start": 48,
+                    "end": 56
+                  }
+                ]
+              },
+              {
+                "text": "Uživatelské jméno: vaše plná e-mailová adresa"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Uložte nastavení a otestujte odesláním zkušebního e-mailu."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "quote",
+      "text": "Tip: Thunderbird Mobile (K-9 Mail) najdete i na F-Droid, takže ho můžete používat zcela bez Google Play.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 4
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Nastavení na iPhonu"
+    },
+    {
+      "type": "text",
+      "text": "Na iPhonu a iPadu můžete použít vestavěnou aplikaci Mail:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Otevřete Nastavení → Pošta → Účty → Přidat účet.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 9,
+              "end": 18
+            },
+            {
+              "type": "bold",
+              "start": 21,
+              "end": 26
+            },
+            {
+              "type": "bold",
+              "start": 29,
+              "end": 33
+            },
+            {
+              "type": "bold",
+              "start": 36,
+              "end": 47
+            }
+          ]
+        },
+        {
+          "text": "Vyberte Ostatní (ne iCloud, ne Gmail, ne Outlook).",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 8,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "text": "Zvolte Přidat poštovní účet.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 7,
+              "end": 27
+            }
+          ]
+        },
+        {
+          "text": "Vyplňte jméno, e-mailovou adresu, heslo a popis účtu (libovolný, třeba „OSCloud\")."
+        },
+        {
+          "text": "Na další obrazovce vyberte IMAP (ne POP).",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 27,
+              "end": 31
+            }
+          ]
+        },
+        {
+          "text": "Do sekce „Server příchozí pošty\" zadejte:",
+          "children": {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              {
+                "text": "Název hostitele: my.oscloud.cz",
+                "formatting": [
+                  {
+                    "type": "code",
+                    "start": 17,
+                    "end": 30
+                  }
+                ]
+              },
+              {
+                "text": "Uživatelské jméno: vaše plná e-mailová adresa"
+              },
+              {
+                "text": "Heslo: vaše heslo k OSCloud"
+              }
+            ]
+          }
+        },
+        {
+          "text": "Do sekce „Server odchozí pošty\" zadejte stejné údaje."
+        },
+        {
+          "text": "Klepněte na Další – iPhone ověří nastavení.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 12,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "text": "Po úspěšném ověření klepněte na Uložit.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 32,
+              "end": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "quote",
+      "text": "Poznámka: iOS by měl automaticky rozpoznat správné porty a šifrování. Pokud se ověření nepodaří, zkontrolujte zadané údaje a případně ručně nastavte port 993 (IMAP, SSL) a 587 (SMTP, STARTTLS) v pokročilých nastaveních účtu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Používání vlastní domény"
+    },
+    {
+      "type": "text",
+      "text": "Jednou z velkých výhod e-mailu na OSCloud je možnost používat vlastní doménu. Místo adresy vas-nick@oscloud.cz můžete mít třeba info@vase-firma.cz nebo jmeno@vase-domena.cz.",
+      "formatting": [
+        {
+          "type": "code",
+          "start": 91,
+          "end": 110
+        },
+        {
+          "type": "code",
+          "start": 128,
+          "end": 146
+        },
+        {
+          "type": "code",
+          "start": 152,
+          "end": 172
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Jak to funguje"
+    },
+    {
+      "type": "text",
+      "text": "Pokud vlastníte doménu (například přes Wedos, Forpsi, Cloudflare nebo jiného registrátora), můžete ji propojit s e-mailem na OSCloud. Celý proces vypadá takto:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Kontaktujte administrátora OSCloud s požadavkem na přidání vlastní domény."
+        },
+        {
+          "text": "Administrátor vám poskytne sadu DNS záznamů, které je potřeba nastavit u vašeho registrátora domény."
+        },
+        {
+          "text": "Nastavíte DNS záznamy podle pokynů."
+        },
+        {
+          "text": "Administrátor ověří nastavení a aktivuje doménu."
+        },
+        {
+          "text": "Můžete začít používat e-mail na vlastní doméně."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "DNS záznamy – co to je a k čemu slouží"
+    },
+    {
+      "type": "text",
+      "text": "Při nastavování vlastní domény se setkáte s několika typy DNS záznamů. Nemusíte rozumět jejich technické implementaci, ale je dobré vědět, k čemu slouží:"
+    },
+    {
+      "type": "text",
+      "text": "MX záznam říká světu, kam se mají doručovat e-maily pro vaši doménu. Bez něj by ostatní servery nevěděly, kam vaši poštu poslat.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "SPF záznam je ochrana proti podvržení odesílatele. Říká příjemcům, které servery jsou oprávněné odesílat e-maily za vaši doménu. Bez SPF záznamu hrozí, že vaše e-maily skončí ve spamu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 10
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "DKIM záznam přidává ke každému odeslanému e-mailu digitální podpis. Příjemce si díky němu může ověřit, že zpráva skutečně pochází z vašeho serveru a že nebyla cestou pozměněna.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 11
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "DMARC záznam spojuje SPF a DKIM dohromady a definuje, co se má stát s e-maily, které nesplňují pravidla. Zároveň umožňuje získávat reporty o doručování.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Všechny tyto záznamy jsou důležité pro spolehlivé doručování vašich e-mailů a ochranu proti zneužití vaší domény. Administrátor OSCloud vám poskytne přesné hodnoty, které stačí zkopírovat do správy DNS u vašeho registrátora."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Doporučení pro bezpečnost"
+    },
+    {
+      "type": "text",
+      "text": "E-mail je jeden z nejčastějších cílů kybernetických útoků. I na sebezabezpečenějším serveru záleží na tom, jak se chováte vy jako uživatel. Tady je pár zásad, které vám pomohou udržet schránku v bezpečí."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Silné heslo"
+    },
+    {
+      "type": "text",
+      "text": "Používejte heslo, které je dostatečně dlouhé (minimálně 12 znaků) a obsahuje kombinaci velkých a malých písmen, číslic a speciálních znaků. Ideálně použijte správce hesel (KeePassXC, Bitwarden na OSCloud) a vygenerujte náhodné heslo. Nikdy nepoužívejte stejné heslo jako na jiných službách.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://bitwarden.oscloud.online/#/signup",
+          "start": 183,
+          "end": 203
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Dvoufázové ověření"
+    },
+    {
+      "type": "text",
+      "text": "Pokud OSCloud nabízí dvoufázové ověření (2FA), rozhodně ho zapněte. Kromě hesla budete při přihlášení zadávat jednorázový kód z autentifikační aplikace (FreeOTP, Aegis Authenticator, Google Authenticator). I kdyby někdo získal vaše heslo, bez kódu se nepřihlásí."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Pozor na phishing"
+    },
+    {
+      "type": "text",
+      "text": "Phishing je pokus vylákat z vás přihlašovací údaje pomocí falešných e-mailů nebo webových stránek. Pamatujte si:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "OSCloud vás nikdy nebude žádat o heslo e-mailem."
+        },
+        {
+          "text": "Neklikejte na podezřelé odkazy v e-mailech, které vás vybízejí k „ověření účtu\" nebo „aktualizaci hesla\"."
+        },
+        {
+          "text": "Vždy zkontrolujte adresu v prohlížeči – přihlašujte se jen přes známou adresu webmailu."
+        },
+        {
+          "text": "Pokud si nejste jisti, zda je e-mail legitimní, kontaktujte podporu OSCloud."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Aktualizace e-mailového klienta"
+    },
+    {
+      "type": "text",
+      "text": "Ať používáte Thunderbird, mobilní aplikaci nebo cokoliv jiného – udržujte software aktualizovaný. Aktualizace často opravují bezpečnostní chyby, které by útočníci mohli zneužít."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Přihlašování z důvěryhodných zařízení"
+    },
+    {
+      "type": "text",
+      "text": "Nepřihlašujte se do e-mailu z veřejných počítačů (knihovny, internetové kavárny, hotelové počítače). Pokud to musíte udělat, používejte anonymní režim prohlížeče a po skončení se vždy odhlaste. Na vlastních zařízeních mějte zamknutou obrazovku."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Nejčastější dotazy"
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Mohu používat Outlook?"
+    },
+    {
+      "type": "text",
+      "text": "Ano. Microsoft Outlook podporuje IMAP a SMTP, takže ho můžete použít jako klienta pro e-mail na OSCloud. Při nastavení zadejte stejné údaje jako u Thunderbirdu – IMAP server, port 993 s SSL/TLS, SMTP server, port 587 se STARTTLS a jako uživatelské jméno plnou e-mailovou adresu."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Mohu používat Thunderbird?"
+    },
+    {
+      "type": "text",
+      "text": "Rozhodně. Thunderbird je doporučený klient pro práci s e-mailem na OSCloud. Je open-source, multiplatformní a skvěle spolupracuje s IMAP servery. Podrobný návod na nastavení najdete výše v článku."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Mohu mít e-mail na vlastní doméně?"
+    },
+    {
+      "type": "text",
+      "text": "Ano. Pokud vlastníte doménu, můžete ji propojit s e-mailem na OSCloud. Kontaktujte administrátora, který vám poskytne potřebné DNS záznamy. Více informací najdete v sekci „Používání vlastní domény\" výše."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Mohu používat více zařízení současně?"
+    },
+    {
+      "type": "text",
+      "text": "Ano. Díky protokolu IMAP se vaše e-maily synchronizují mezi všemi zařízeními. Zprávy, které si přečtete na telefonu, budou označené jako přečtené i v Thunderbirdu na počítači a naopak. Stejně tak přesuny do složek, mazání a další operace se projeví všude."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Funguje synchronizace složek?"
+    },
+    {
+      "type": "text",
+      "text": "Ano. IMAP synchronizuje nejen zprávy, ale i složky. Pokud si vytvoříte složku ve webmailu, uvidíte ji i v Thunderbirdu a na mobilu. U některých klientů může být potřeba v nastavení účtu zvolit „Přihlásit se k odběru složek\" (Subscribe), aby se zobrazily všechny složky na serveru."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Co když zapomenu heslo?"
+    },
+    {
+      "type": "text",
+      "text": "Heslo k e-mailu je stejné jako heslo k vašemu účtu na platformě OSCloud. Heslo si můžete změnit sami na my.oscloud.cz. Pokud se ani tam nemůžete přihlásit, kontaktujte administrátora na helpdesk.oscloud.cz, který vám pomůže s obnovou přístupu.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://my.oscloud.cz",
+          "start": 104,
+          "end": 117
+        },
+        {
+          "type": "link",
+          "url": "https://helpdesk.oscloud.cz/help/3020290644",
+          "start": 186,
+          "end": 205
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Mohu mít více e-mailových aliasů?"
+    },
+    {
+      "type": "text",
+      "text": "Ano. Aliasy jsou alternativní adresy, které doručují poštu do vaší hlavní schránky. Aliasy nastavuje administrátor – stačí mu napsat, jakou adresu byste chtěli jako alias, a on ji přidá. Můžete mít i více aliasů najednou."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Nejčastější problémy a jejich řešení"
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Nejde odesílat poštu"
+    },
+    {
+      "type": "text",
+      "text": "Pokud zprávy přijímáte, ale nemůžete je odesílat, zkontrolujte nastavení odchozího serveru (SMTP). Server musí být my.oscloud.cz (nebo adresa, kterou jste obdrželi), port 587 a šifrování STARTTLS. Ověřte také, že máte vyplněné uživatelské jméno (plná e-mailová adresa) a heslo i pro odchozí server – některé klienty to nevyplňují automaticky.",
+      "formatting": [
+        {
+          "type": "code",
+          "start": 115,
+          "end": 128
+        },
+        {
+          "type": "code",
+          "start": 171,
+          "end": 174
+        },
+        {
+          "type": "bold",
+          "start": 187,
+          "end": 195
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Špatné heslo"
+    },
+    {
+      "type": "text",
+      "text": "Chybová hláška „Authentication failed\" nebo „Nesprávné heslo\" znamená, že klient posílá špatné přihlašovací údaje. Zkontrolujte, že jako uživatelské jméno máte zadanou plnou e-mailovou adresu (včetně @oscloud.cz) a že heslo odpovídá vašemu heslu na platformě OSCloud. Pozor na mezery na začátku nebo konci hesla – některé klienty je přidávají při kopírování.",
+      "formatting": [
+        {
+          "type": "code",
+          "start": 200,
+          "end": 211
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Chyba certifikátu"
+    },
+    {
+      "type": "text",
+      "text": "Pokud klient hlásí problém s certifikátem, neklikejte automaticky na „Přidat výjimku\". Platný certifikát by měl být rozpoznán automaticky. Chyba certifikátu může znamenat, že máte zadanou špatnou adresu serveru, nebo že certifikát na serveru vypršel. V prvním případě zkontrolujte adresu, v druhém kontaktujte podporu OSCloud."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Nefunguje IMAP (nejde se připojit)"
+    },
+    {
+      "type": "text",
+      "text": "Zkontrolujte, že máte správnou adresu serveru a port 993. Šifrování musí být nastaveno na SSL/TLS (ne STARTTLS, ten je pro SMTP na portu 587). Ujistěte se také, že váš firewall nebo VPN neblokuje port 993. Zkuste se přihlásit přes webmail – pokud tam e-mail funguje, problém je na straně klienta nebo sítě.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 90,
+          "end": 97
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Pošta se nesynchronizuje"
+    },
+    {
+      "type": "text",
+      "text": "Pokud vidíte na jednom zařízení zprávy, které na jiném chybí, zkontrolujte v nastavení klienta, zda máte zapnutou synchronizaci všech složek. V Thunderbirdu klikněte pravým tlačítkem na účet → Přihlásit se ke složkám a zaškrtněte všechny složky, které chcete synchronizovat. Na mobilních klientech hledejte nastavení jako „Synchronizovat složky\" nebo „Sync folders\".",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 193,
+          "end": 216
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Pokud se nesynchronizují přečtené/nepřečtené stavy, ověřte, že oba klienti používají IMAP (ne POP3). Protokol POP3 stahuje zprávy lokálně a nesdílí stav se serverem."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "E-maily končí ve spamu příjemce"
+    },
+    {
+      "type": "text",
+      "text": "Pokud vaše e-maily končí ve spamu u příjemců (zejména u Gmailu nebo Outlooku), může to být problém s DNS záznamy vaší domény. Kontaktujte administrátora OSCloud, který zkontroluje nastavení SPF, DKIM a DMARC. Pokud používáte doménu OSCloud (ne vlastní), tyto záznamy by měly být nastaveny správně automaticky."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Závěr"
+    },
+    {
+      "type": "text",
+      "text": "E-mail na OSCloud je plnohodnotná alternativa ke komerčním e-mailovým službám. Nabízí standardní protokoly IMAP a SMTP, funguje s libovolným e-mailovým klientem, podporuje vlastní domény a aliasy a především – vaše data zůstávají pod kontrolou komunity, bez reklam a bez profilování."
+    },
+    {
+      "type": "text",
+      "text": "Celá infrastruktura běží na serverech Hetzner v Německu, v souladu s evropským GDPR. E-maily jsou přenášeny šifrovaně a nikdo k nim nemá přístup kromě vás (a administrátora platformy, který má technický přístup k infrastruktuře, ale vaše zprávy aktivně nečte ani neanalyzuje)."
+    },
+    {
+      "type": "text",
+      "text": "Pokud máte jakékoliv dotazy, narazíte na problém s nastavením nebo potřebujete pomoc, obraťte se na podporu OSCloud na helpdesk.oscloud.cz. Rádi vám pomůžeme.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://helpdesk.oscloud.cz/help/3020290644",
+          "start": 119,
+          "end": 138
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/email-na-oscloud.md"
+  }
+}

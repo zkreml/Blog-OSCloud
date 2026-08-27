@@ -1,0 +1,33 @@
+{
+  "slug": "stastny-novy-rok-2026",
+  "title": "Šťastný nový rok 2026",
+  "date": "2026-01-01T11:20:00+01:00",
+  "state": "published",
+  "tags": [
+    "oscloud",
+    "komunita"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "text": "Děkujeme všem, kteří byli součástí OSCloud v roce 2025 — uživatelům, podporovatelům, přispěvatelům i celé komunitě kolem."
+    },
+    {
+      "type": "text",
+      "text": "Do roku 2026 přejeme hlavně zdraví, klid, stabilní systémy, funkční zálohy a komunitu, která drží při sobě."
+    },
+    {
+      "type": "text",
+      "text": "Díky, že společně dáváme smysl otevřenému, bezpečnému a komunitnímu cloudu. Těšíme se na další společný rok."
+    },
+    {
+      "type": "text",
+      "text": "Tým OSCloud"
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/stastny-novy-rok-2026.md"
+  }
+}

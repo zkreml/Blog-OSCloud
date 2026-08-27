@@ -1,0 +1,305 @@
+{
+  "slug": "slouceni-mastodon-instanci",
+  "title": "Sloučení Mastodon instancí – mamutovo.cz a mastodon.arch-linux.cz",
+  "date": "2026-02-07T00:00:00+01:00",
+  "state": "published",
+  "tags": [
+    "mastodon",
+    "fediverse",
+    "oscloud",
+    "mamutovo.cz",
+    "Oznámení"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "text": "Ahoj kamarádi, kolegové, Mastodontíci!"
+    },
+    {
+      "type": "text",
+      "text": "Rádi bychom vás informovali o našich plánech a změnách na našich Mastodon instancích."
+    },
+    {
+      "type": "text",
+      "text": "Jak určitě víte, provozujeme aktuálně dvě instance - mamutovo.cz a mastodon.arch-linux.cz. Rozhodli jsme se, že pro zjednodušení správy, aktualizací, a ano, samozřejmě i snížení nákladů na provoz bychom rádi ponechali jen jednu instanci – mamutovo.cz, které chceme i nadále věnovat maximální prioritu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 53,
+          "end": 64
+        },
+        {
+          "type": "bold",
+          "start": 67,
+          "end": 89
+        },
+        {
+          "type": "bold",
+          "start": 239,
+          "end": 250
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Volba mamutovo.cz nepadla náhodně, ale hlavně proto, že tato doména působí víc civilněji a ne jako nebezpečná barikáda pro lidi, kteří slovo Linux chápou asi tak jako neštovice, mor a jiné hrozby. Našim cílem je věnovat plnou podporu jedné instanci a nabídnout na ní vždycky to nejnovější a nejlepší, co Mastodon může nabídnout."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co to bude znamenat pro vás?"
+    },
+    {
+      "type": "text",
+      "text": "Mastodon jako takový nekončí, pouze budeme provozovat pouze jednu instanci - mamutovo.cz.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 77,
+          "end": 88
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Pokud budete potřebovat, samozřejmě vám pomůžeme s:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Migrací účtu (přesměrování followerů)"
+        },
+        {
+          "text": "Exportem a importem dat"
+        },
+        {
+          "text": "Vysvětlíme celý postup krok za krokem"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ivan pro vás připravil podrobný návod na migraci: Návod na migraci účtu V případě, že se na to nebudete cítit, domluvíme si detaily přes PM a celý přenos provedeme za vás.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 49
+        },
+        {
+          "type": "link",
+          "url": "https://about.mamutovo.cz/zalozeni-uctu-2/",
+          "start": 50,
+          "end": 71
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Proč to děláme?"
+    },
+    {
+      "type": "text",
+      "text": "Dlouhodobě se staráme o provoz, aktualizace a doplňování funkcí dvou instancí, které jsou ve finále naprosto totožné. Stojí nás to spoustu času, energie a všechno vlastně musíme dělat dvakrát. Kromě toho máme komunitu roztříštěnou na dvou místech a i správa uživatelů, filtrování, blokování, aby vás nikdo neobtěžoval, se úplně zbytečně tříští mezi dvě instance."
+    },
+    {
+      "type": "text",
+      "text": "Další důvod je samozřejmě i finanční. Za provoz obou instancí platíme měsíčně kolem 80 Euro. K tomu si přidejte licence za translator, zálohy a další náklady – a zjistíte stejně jako my, že provoz dvou identických instancí je naprosto zbytečně drahý.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 84,
+          "end": 91
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Časový plán?"
+    },
+    {
+      "type": "text",
+      "text": "Zatím nic nevypínáme!",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Celý přesun nebudeme dělat nijak překotně a dáme vám dost času se se změnou vypořádat. Abychom byli konkrétní – takový Svátek Práce je krásný den dělat životní změny, ne?"
+    },
+    {
+      "type": "text",
+      "text": "Termín: Do 1. 5. 2026 pojdou obě instance beze změny, poté bychom chtěli mastodon.arch-linux.cz ukončit.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "type": "bold",
+          "start": 11,
+          "end": 21
+        },
+        {
+          "type": "bold",
+          "start": 73,
+          "end": 95
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Máte jakýkoliv dotaz nebo potřebujete radu a pomoc?"
+    },
+    {
+      "type": "text",
+      "text": "Jsme tady pro vás jako vždycky. Napište nám:"
+    },
+    {
+      "type": "text",
+      "text": "Soukromou zprávu:",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Archos: @archos@mastodon.arch-linux.cz",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://mastodon.arch-linux.cz/@archos",
+              "start": 8,
+              "end": 38
+            }
+          ]
+        },
+        {
+          "text": "Ivan: @cynik_obecny@mamutovo.cz",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://mamutovo.cz/@cynik_obecny",
+              "start": 6,
+              "end": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Matrix:",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 7
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Archos: matrix.to/#/@archos:mxchat.cz",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://matrix.to/#/@archos:mxchat.cz",
+              "start": 8,
+              "end": 37
+            }
+          ]
+        },
+        {
+          "text": "Ivan: matrix.to/#/@ivan_stloukal:mxchat.cz",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://matrix.to/#/@ivan_stloukal:mxchat.cz",
+              "start": 6,
+              "end": 42
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "WhatsApp, Telegram, Signal:",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Ivan: +447498113020"
+        },
+        {
+          "text": "Archos: +420739274900"
+        }
+      ]
+    },
+    {
+      "type": "hr"
+    },
+    {
+      "type": "text",
+      "text": "Díky všem, kteří jste součástí komunity."
+    },
+    {
+      "type": "text",
+      "text": "Cílem je zachovat Mastodon funkční, přívětivý a dlouhodobě udržitelný – a společně z mamutovo.cz udělat skvělé místo na fediverse.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 85,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Za OSCloud   Archos & Ivan",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 10
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/slouceni-mastodon-instanci.md"
+  }
+}

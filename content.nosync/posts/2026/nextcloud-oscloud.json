@@ -1,0 +1,395 @@
+{
+  "slug": "nextcloud-oscloud",
+  "title": "Nextcloud na OSCloudu: Praktická alternativa ke cloudovým službám",
+  "date": "2026-01-24T00:00:00+01:00",
+  "state": "published",
+  "tags": [
+    "oscloud",
+    "nextcloud",
+    "aplikace",
+    "privacy"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "text": "Každý den posíláme soubory přes email, protože \"sdílení přes Google Drive je nějak složité\". Kalendář máme v telefonu, ale kolega používá Outlook, tak se domlouváme přes zprávy. Dokumenty editujeme v Google Docs, i když by stačil prostý textový editor. A všechno to funguje, dokud nepotřebujete vědět, kde vlastně ta data jsou, kdo k nim má přístup a co se s nimi děje."
+    },
+    {
+      "type": "text",
+      "text": "Není to o paranoi. Je to o tom, že někdy prostě chcete mít věci pod kontrolou. A k tomu slouží Nextcloud na OSCloudu."
+    },
+    {
+      "type": "text",
+      "text": "<img src=\"/images/nextcloud1.png\" alt=\"Nextcloud\" width=\"600\">"
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co je Nextcloud a k čemu slouží"
+    },
+    {
+      "type": "text",
+      "text": "Nextcloud je open-source platforma pro ukládání a sdílení souborů, kalendářů, kontaktů a dokumentů. Není to \"český Google Drive\" ani \"evropský Dropbox\" – je to něco jiného. Je to nástroj, který na jednom místě soustřeďuje věci, které normálně používáte roztříštěně přes několik různých služeb."
+    },
+    {
+      "type": "text",
+      "text": "Na OSCloudu běží jako jedna z aplikací v ekosystému. A tady je důležitá věc: stačí vám jeden účet OSCloud a přes Single Sign-On (SSO) se přihlásíte skoro do všech aplikací. Zaregistrujete se jednou, máte jedno heslo, a pak už jen klikáte na aplikace, které potřebujete.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 77,
+          "end": 171
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Nextcloud pro soubory. Matrix pro chat. Mastodon pro sociální síť. Gitea pro Git repozitáře.  Všechno na evropských serverech."
+    },
+    {
+      "type": "text",
+      "text": "OSCloud není klasický hosting, kde si objednáte \"balíček služeb\". Je to ekosystém, kde každá aplikace řeší konkrétní problém. Nextcloud řeší ukládání a sdílení dat. Nemusíte rozumět serverům nebo instalacím – prostě si vytvoříte účet a máte přístup ke všemu."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Co konkrétně Nextcloud umí"
+    },
+    {
+      "type": "text",
+      "text": "Soubory: Nahrajete soubor, synchronizuje se s počítačem a telefonem. Můžete ho sdílet odkazem nebo s konkrétním člověkem. Funguje to podobně jako Dropbox, akorát data nejdou přes americké servery.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 7
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Kalendář a kontakty: Standardní CalDAV/CardDAV, což znamená, že funguje s jakýmkoli rozumným emailovým klientem nebo telefonem. Vytvoříte událost, synchronizuje se všude.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 19
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Dokumenty: Integrovaný editor Collabora  pro psaní textů, tabulky, prezentace. Není to tak \"hladké\" jako Google Docs, ale na běžnou práci to stačí.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Fotky: Automatické nahrávání fotek z telefonu, organizace do alb, sdílení. Bez skenování obličejů, bez vytváření \"vzpomínek\", prostě jen ukládání.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Sdílení: Generování odkazů s heslem, nastavení expirace, sledování, kdo co stáhnul. Pro posílání větších souborů to funguje lépe než email.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 7
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Jak to vypadá v praxi"
+    },
+    {
+      "type": "text",
+      "text": "Představte si běžný pracovní den:"
+    },
+    {
+      "type": "text",
+      "text": "Ráno se přihlásíte na OSCloud. Jeden účet, jedno heslo. Otevřete Nextcloud – synchronizují se soubory, na kterých jste včera pracovali. Podíváte se do kalendáře na schůzky. Přepnete se na Matrix, checkujete zprávy od týmu. Všechno to běží automaticky, SSO vás přihlásí do každé aplikace bez dalšího zadávání hesel.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 4
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Přes den potřebujete sdílet dokument s kolegy. V Nextcloudu vytvoříte odkaz, nastavíte, že vyprší za týden, pošlete. Kolega soubor stáhne, upraví, nahraje zpět. Vidíte historii verzí, takže když něco pokazí, vrátíte se k původnímu stavu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 8
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Večer si nahrajete screenshot z práce do Nextcloudu, napíšete poznámku do Notes aplikace a zavřete počítač. Fotky z telefonu se nahrají automaticky během nabíjení. Nic z toho nepotřebuje vaši pozornost.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 5
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "To je celé. Žádná kouzla, žádné \"gamechanger\" momenty. Prostě věci fungují, jak mají. A důležité: neřešíte deset různých účtů a hesel. Jeden účet OSCloud, všechny aplikace.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 98,
+          "end": 133
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "<img src=\"/images/collabora.png\" alt=\"Collabora\" width=\"600\">"
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Co nefunguje úplně hladce"
+    },
+    {
+      "type": "text",
+      "text": "Nextcloud není perfektní. Desktop klient občas zlobí při synchronizaci velkých souborů. Webové rozhraní je někdy pomalejší než chcete. Mobilní aplikace pro Android funguje dobře, iOS verze má menší mouchy."
+    },
+    {
+      "type": "text",
+      "text": "Collabora Online (editor dokumentů) je funkční pro běžnou práci s dokumenty. Real-time kolaborace funguje, ale není tak hladká jako u Google Docs. Když na dokumentu pracují dva lidi, jede to v pohodě. S větším počtem lidí současně může být odezva pomalejší."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Pro koho je Nextcloud na OSCloudu vhodný"
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Hodí se pro"
+    },
+    {
+      "type": "text",
+      "text": "Lidi, kteří nechtějí řešit technické detaily. OSCloud se stará o aktualizace, zálohy, bezpečnost. Vy jen používáte aplikaci. Není to self-hosting, kde musíte rozumět Linuxu a síťovým konfigurácím.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 44
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Malé firmy a týmy. Když potřebujete sdílet dokumenty, koordinovat kalendáře, ukládat firemní data na jednom místě. A když nechcete, aby vaše firemní informace procházely přes Google nebo Microsoft.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 17
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Rodiny. Sdílený kalendář, společné fotky z dovolené, ukládání důležitých dokumentů. Každý člen rodiny má svůj účet, ale můžete si věci sdílet mezi sebou.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 6
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Projekty a organizace. Když spolupracujete na něčem dlouhodobějším a potřebujete mít data na jednom místě. Dobré pro neziskovky, spolky, komunitní projekty.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Nehodí se pro"
+    },
+    {
+      "type": "text",
+      "text": "Lidi, kteří potřebují Google Docs funkcionalitu na 100 %. Real-time kolaborace na dokumentech s deseti lidmi současně prostě není tak hladká jako u Googlu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 56
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Uživatele, kteří chtějí automatické AI fičury. Nextcloud nedělá automatické albumy, nerozpoznává obličeje, nevytvářuje \"vzpomínky\", netřídí fotky podle obsahu. Je to feature, ne bug, ale ne každému to vyhovuje.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 45
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Firmy s komplexními enterprise požadavky. Pokud potřebujete integraci s Active Directory, pokročilé audit logy, komplexní workflow – jsou lepší řešení. Nextcloud je pro běžné používání, ne pro korporátní IT infrastrukturu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 40
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Shrnutí: Kdy to dává smysl"
+    },
+    {
+      "type": "text",
+      "text": "Nextcloud na OSCloudu dává smysl, když:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Chcete mít cloudové úložiště bez závislosti na velkých platformách"
+        },
+        {
+          "text": "Vadí vám, že nevíte, kde jsou vaše data a kdo k nim má přístup"
+        },
+        {
+          "text": "Potřebujete sdílet soubory, kalendáře a dokumenty v týmu nebo rodině"
+        },
+        {
+          "text": "Nechcete řešit technické detaily instalace a údržby"
+        },
+        {
+          "text": "Oceníte, že máte jeden účet pro více služeb – SSO znamená jedno heslo, všechny aplikace",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 17,
+              "end": 43
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Nedává smysl, když:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Jste spokojeni s Google Worskspace nebo Microsoft 365 a nic vám nevadí"
+        },
+        {
+          "text": "Potřebujete pokročilé kolaborativní funkce dokumentů"
+        },
+        {
+          "text": "Chtějte AI asistenty a automatické analýzy dat"
+        },
+        {
+          "text": "Očekáváte, že to bude \"úplně stejné jako Google, jen jiné\""
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "OSCloud není konkurence ke Google Drive v tom smyslu, že by chtěl být lepší ve stejných věcech. Je to alternativa pro ty, kteří chtějí něco trochu jiného – větší kontrolu, evropské servery, open-source řešení, žádné sledování."
+    },
+    {
+      "type": "text",
+      "text": "A důležité: Nextcloud je jen jedna aplikace z ekosystému. Vedle něj máte Matrix pro komunikaci,  Mastodon  pro sociální síť, Gitea pro Git repozitáře, a další. Všechno pod jedním účtem, všechno propojené přes SSO. Neřešíte deset různých registrací – vytvoříte si účet OSCloud a máte přístup ke všemu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 57
+        },
+        {
+          "type": "bold",
+          "start": 97,
+          "end": 105
+        },
+        {
+          "type": "link",
+          "url": "https://mamutovo.cz",
+          "start": 97,
+          "end": 105
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Není to revoluce. Je to prostě jiný způsob, jak dělat věci, které už děláte. A pro některé lidi dává větší smysl než současný mainstream."
+    },
+    {
+      "type": "hr"
+    },
+    {
+      "type": "text",
+      "text": "Nextcloud můžete vyzkoušet přímo na OSCloudu. Registrace trvá pár minut.",
+      "formatting": [
+        {
+          "type": "italic",
+          "start": 0,
+          "end": 72
+        },
+        {
+          "type": "bold",
+          "start": 46,
+          "end": 56
+        },
+        {
+          "type": "link",
+          "url": "https://helpdesk.oscloud.cz/help/3020290644",
+          "start": 46,
+          "end": 56
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/nextcloud-oscloud.md"
+  }
+}

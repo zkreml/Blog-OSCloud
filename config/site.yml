@@ -1,0 +1,109 @@
+# OSCloud News (blog.oscloud.cz) -- site configuration
+# Skin je zdědění z arch-linux.cz (Tailwind slate/blue), palety doladíme
+# přes ./style.sh. Vizuál žije v assets/css/skin.css.
+
+site:
+  title: "Novinky z OSCloud"
+  short_name: "OSCloud"
+  description: "Novinky a návody z OSCloud - české komunitní self-hostingové platformy"
+  author: "Team OSCloud"
+  lang: "cs"
+  locale: "cs_CZ"
+  page_size: 5
+  timezone: "Europe/Prague"
+  base_url: "https://blog.oscloud.cz"
+  extra_css:
+    - "/assets/css/skin.css"
+
+banner:
+  src: "/assets/images/header.png"
+  alt: "OSCloud"
+  width: 800
+  height: 492
+  show_title: true
+  show_claim: false
+
+colors:
+  light:
+    bg: "#ffffff"
+    text: "#334155"
+    meta_text: "#64748b"
+    accent: "#1d4ed8"
+    nav_bg: "#ffffff"
+    border: "#cbd5e1"
+    pill_bg: "#dbeafe"
+  dark:
+    bg: "#1e293b"
+    text: "#cbd5e1"
+    meta_text: "#94a3b8"
+    accent: "#60a5fa"
+    nav_bg: "#1e293b"
+    border: "#475569"
+    pill_bg: "#1e3a5f"
+
+fonts:
+  banner_title: "ui-sans-serif, system-ui, sans-serif"
+  banner_title_size: "18px"
+
+layout:
+  sidebar: true
+  hero: true
+
+nav:
+  - { label: "Domů", url: "/" }
+  - { label: "Návody", tag: "oscloud" }
+  - { label: "Zprávy", tag: "soukromi" }
+  - { label: "Helpdesk", url: "https://helpdesk.oscloud.cz/help/3020290644" }
+  - { label: "Dokumentace", url: "https://docs.oscloud.cz" }
+
+about:
+  heading: ""
+  html: |-
+    Jsme česká komunitní self-hostingová platforma postavená na open-source technologiích. Provozujeme Nextcloud, Matrix, Mastodon, PeerTube, Ente Photos a další služby - vše na vlastní infrastruktuře v EU.
+
+    Věříme v digitální suverenitu, soukromí a transparentnost. Jsme otevření ohledně toho, co jako správci vidíme a co ne.
+
+footer:
+  links_heading: ""
+  links: []
+  note_heading: ""
+  note_html: ""
+  copyright: "&copy; 2026 OSCloud &middot; Postaveno na [./blog.sh](https://blogsh.app)"
+  social_heading: ""
+
+social:
+  - name: "Mastodon"
+    url: "https://mamutovo.cz/@oscloud"
+    icon: "mastodon"
+    rel: "me"
+  - name: "Git"
+    url: "https://git.arch-linux.cz/Oscloud"
+    icon: "github"
+  - name: "RSS"
+    url: "/rss.xml"
+    icon: "rss"
+
+mastodon:
+  instance: "mamutovo.cz"
+  toot_length: 500
+
+comments:
+  approval: fav
+
+widgets:
+  rss:
+    heading: "Z Fediverse"
+    feed_url: "https://mamutovo.cz/@oscloud/feed.rss"
+    limit: 5
+  toots:
+    heading: "Poslední tooty"
+    # instance is optional -- it falls back to mastodon.instance below,
+    # so set it only when the widget shows an account living elsewhere.
+    # instance: "mastodon.social"
+    account_id: "111674651383349773"  # the account's API id, not the @handle -- a number on Mastodon, a ULID on GoToSocial
+    limit: 3
+  commits:
+    heading: "Poslední commity"
+    username: "Archos"
+    limit: 5
+    instance: "https://git.arch-linux.cz"

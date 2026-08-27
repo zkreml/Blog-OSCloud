@@ -1,0 +1,142 @@
+{
+  "slug": "rozlouceni-mastodon-arch-linux-cz",
+  "title": "Rozloučení s mastodon.arch-linux.cz",
+  "date": "2026-04-26T00:00:00+02:00",
+  "state": "published",
+  "tags": [
+    "mastodon",
+    "fediverse",
+    "oznámení",
+    "oscloud"
+  ],
+  "content": [
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "dubna 2026 bude instance mastodon.arch-linux.cz vypnuta.",
+          "formatting": [
+            {
+              "type": "link",
+              "url": "https://mastodon.arch-linux.cz",
+              "start": 25,
+              "end": 47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Oznámení proběhlo včas. Tenhle text je spíš rozloučení."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Trochu historie, která se někde ztratila"
+    },
+    {
+      "type": "text",
+      "text": "mastodon.arch-linux.cz vznikl v roce 2021 jako prostor primárně pro komunitu Arch Linux CZ. Postupem času se ale stal něčím víc — otevřenou instancí pro každého, kdo hledal alternativu k mainstreamovým platformám."
+    },
+    {
+      "type": "text",
+      "text": "V době první velké vlny odchodů z Twitteru sehrála tahle instance zásadní roli. Instance tehdy přijímala nové uživatele prakticky bez bariér. Jiné české instance sice existovaly, ale většina z nich registrace uzavřela nebo nové uživatele vůbec nepřijímala. Bez mastodon.arch-linux.cz by tehdy spousta lidí nenašla žádné rozumné české místo k přistání — a je otázka, jestli by dnes větší české instance vůbec vznikly."
+    },
+    {
+      "type": "text",
+      "text": "Nebyla nejviditelnější, nebyla nejhlasitější. Ale byla tu, když bylo potřeba. Stejně jako dnes — pod hlavičkou OSCloud stále běží mamutovo.cz, vhsky.cz, mxchat.cz, pixelfed.cz a další projekty. Většinou bez zmínky, bez PR, bez viditelnosti.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://mamutovo.cz",
+          "start": 130,
+          "end": 141
+        },
+        {
+          "type": "link",
+          "url": "https://vhsky.cz",
+          "start": 143,
+          "end": 151
+        },
+        {
+          "type": "link",
+          "url": "https://mxchat.cz",
+          "start": 153,
+          "end": 162
+        },
+        {
+          "type": "link",
+          "url": "https://pixelfed.cz",
+          "start": 164,
+          "end": 175
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Realita za provozem"
+    },
+    {
+      "type": "text",
+      "text": "Postupem času se komunita přirozeně přesunula jinam. Z původní komunity zůstalo aktivních jen několik uživatelů a provoz ztratil smysl."
+    },
+    {
+      "type": "text",
+      "text": "Není to o technickém selhání. Není to o jednom konkrétním rozhodnutí. Je to prostě o tom, že všechno má svůj čas."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Jak to děláme"
+    },
+    {
+      "type": "text",
+      "text": "Nic se nevypíná potichu nebo přes noc."
+    },
+    {
+      "type": "text",
+      "text": "Oznámení proběhlo dopředu. Uživatelům byl ponechán dostatek času na přesun účtu. Nabídli jsme pomoc — včetně přechodu na mamutovo.cz, kde komunita může pokračovat dál. Cílem bylo a je sjednotit energii na jedno místo, které má šanci být živé a dlouhodobě udržitelné. Někteří si dokonce nechali na OSCloud rozběhnout vlastní Mastodon instanci.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://mamutovo.cz",
+          "start": 121,
+          "end": 132
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Díky"
+    },
+    {
+      "type": "text",
+      "text": "Díky všem, kteří tu byli — těm, co přispívali, psali, diskutovali, i těm, co jen četli a sledovali."
+    },
+    {
+      "type": "text",
+      "text": "Díky @cynik_obecny za podporu.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://mamutovo.cz/@cynik_obecny",
+          "start": 5,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "mastodon.arch-linux.cz končí. Ale to, co pomohl vytvořit, pokračuje dál."
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/rozlouceni-mastodon-arch-linux-cz.md"
+  }
+}

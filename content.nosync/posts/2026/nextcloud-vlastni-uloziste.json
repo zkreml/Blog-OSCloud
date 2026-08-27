@@ -1,0 +1,224 @@
+{
+  "slug": "nextcloud-vlastni-uloziste",
+  "title": "Nextcloud na OSCloud roste: vlastní úložiště až 1 TB",
+  "date": "2026-07-03T00:00:00+02:00",
+  "state": "published",
+  "tags": [
+    "nextcloud",
+    "storage",
+    "cloud",
+    "soukromí",
+    "zálohy",
+    "šifrování",
+    "Služby"
+  ],
+  "content": [
+    {
+      "type": "image",
+      "media": [
+        {
+          "url": "01.png",
+          "width": 1600,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Google Drive. Dropbox. iCloud. Všechno pohodlné, všechno někde v USA, všechno plné sledování a podmínek, které jsi nikdy nečetl. Existuje jiná cesta — a my ji právě rozšiřujeme."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Nextcloud na OSCloud"
+    },
+    {
+      "type": "text",
+      "text": "Na oscloud.cz provozujeme Nextcloud jako komunitní službu. Žádné korporace, žádné monetizování dat. Servery stojí u Hetzner ve Falkensteinově — EU, GDPR, bez amerického CLOUD Actu.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://oscloud.cz",
+          "start": 3,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Nextcloud není jen úložiště. Součástí je Collabora Online pro editaci dokumentů přímo v prohlížeči, sdílené kalendáře, kontakty, úkoly, poznámky — a mobilní aplikace pro iOS i Android včetně automatické zálohy fotek."
+    },
+    {
+      "type": "text",
+      "text": "Soubory nebo složky lze sdílet odkazem i s někým, kdo účet nemá. Žádná nutnost registrace pro příjemce."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Úložiště"
+    },
+    {
+      "type": "text",
+      "text": "Základní kvóta je 5 GB — na kalendář, kontakty a dokumenty to stačí.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 18,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Potřebuješ víc, ale 1 TB je přes čáru? Ozvi se, domluvíme se individuálně."
+    },
+    {
+      "type": "text",
+      "text": "Pro ty, kdo potřebují opravdu víc, připojíme vlastní dedikované úložiště — fyzicky oddělené, přístup má jen tvůj účet. Po aktivaci se ti v Nextcloudu objeví složka /data jako externí úložiště, kterou používáš stejně jako všechno ostatní.",
+      "formatting": [
+        {
+          "type": "code",
+          "start": 164,
+          "end": 169
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Cena odpovídá přímým nákladům: ~€7 / ~200 Kč měsíčně za 1 TB jsme komunita, ne firma.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 31,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Pro týmy a rodiny"
+    },
+    {
+      "type": "text",
+      "text": "Nextcloud na OSCloud není jen pro jednotlivce. Můžeš sdílet složky v rámci skupiny uživatelů — hodí se pro rodinu, malý tým nebo projekt."
+    },
+    {
+      "type": "text",
+      "text": "Společné úložiště, každý má přístup jen tam, kam má. Stačí říct — účty propojíme a nastavíme oprávnění."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Šifrování"
+    },
+    {
+      "type": "text",
+      "text": "Data na serveru jsou šifrována na straně serveru — včetně domovského úložiště."
+    },
+    {
+      "type": "text",
+      "text": "Není to end-to-end šifrování (klíče spravuje server), ale chrání data před přístupem na úrovni fyzického disku."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Zálohy"
+    },
+    {
+      "type": "text",
+      "text": "Každé dedikované úložiště má automatické snapshoty — 6 denních záloh zdarma. Snapshot nezabere místo hned, sdílí kapacitu s úložištěm a roste jen podle toho, co se změnilo nebo smazalo."
+    },
+    {
+      "type": "text",
+      "text": "Pár věcí, které je dobré vědět:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Obnovení staršího snímku smaže všechny novější — přemýšlej před tím, než nám napíšeš o obnovu."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Snapshoty nejsou náhrada za vlastní zálohy. Jsou na stejném fyzickém úložišti — nechovej je jako jedinou pojistku. Důležitá data si zálohuj i jinam."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Proč ne Google / Dropbox"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Tvoje soubory jsou tvoje — žádná AI, žádné profilování pro reklamy."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Open source od shora dolů."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "EU infrastruktura, GDPR bez marketingového bullšitu."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Jeden OSCloud účet, přístup ke všem službám (Nextcloud, Matrix, Mastodon…)."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Zájem?"
+    },
+    {
+      "type": "text",
+      "text": "Ozvi se přes helpdesk nebo na Mastodonu @oscloud@mamutovo.cz. Domluvíme se.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://helpdesk.oscloud.cz/help/3020290644",
+          "start": 13,
+          "end": 21
+        },
+        {
+          "type": "link",
+          "url": "https://mamutovo.cz/@oscloud",
+          "start": 40,
+          "end": 60
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/nextcloud-vlastni-uloziste.md"
+  }
+}

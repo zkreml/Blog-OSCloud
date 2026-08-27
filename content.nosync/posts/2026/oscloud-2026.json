@@ -1,0 +1,391 @@
+{
+  "slug": "oscloud-2026",
+  "title": "OSCloud 2026: Tvoje data, tvoje pravidla",
+  "date": "2026-01-03T00:00:00+01:00",
+  "state": "published",
+  "tags": [
+    "oscloud",
+    "komunita"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "text": "Provozujeme OSCloud pro lidi, co chtějí mít kontrolu nad svými daty. Žádný Google, žádný Microsoft, žádný tracking. Jenom open source aplikace na našem dedikovaném serveru."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co máme k dispozici"
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Komunikace"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Talk – videohovory bez instalace, přímo z prohlížeče",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 4
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/mirotalk/",
+              "start": 0,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "text": "MxChat – Matrix chat, šifrovaný end-to-end",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "type": "link",
+              "url": "https://web.mxchat.cz/",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "Mastodon – decentralizovaná sociální síť bez algoritmů",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 8
+            },
+            {
+              "type": "link",
+              "url": "https://about.mamutovo.cz/",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Produktivita"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Nextcloud – Cloudové úložiště s online kanceláří. Díky integraci Collabora Online (postavené na LibreOffice) můžete dokumenty upravovat přímo v prohlížeči.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 9
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/nextcloud/",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "CryptPad – kancelář kde nikdo nevidí co píšeš",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 8
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/cryptpad/",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "HedgeDoc – kolaborace na dokumentech real-time",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 8
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/hedgedoc/",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "Vikunja – task manager bez cloud vendor lock-in",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "Trilium – hierarchické poznámky pro všechno",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 7
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/triliumnext/",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Média & Content"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "PeerTube – video hosting bez YouTube",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 8
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/peertube/",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "Pixelfed – fotky bez Instagramu",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 8
+            },
+            {
+              "type": "link",
+              "url": "https://pixelfed.cz",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "Immich – foto galerie pro fotografy",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 6
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/immich/",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Utilita"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Vaultwarden – správce hesel self-hosted",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 11
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/vaultwarden/",
+              "start": 0,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "text": "Wallabag – read-it-later bez Pocket",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 8
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/wallabag/",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "Tiny Tiny RSS – RSS reader",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 13
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/tinytinyrss/",
+              "start": 0,
+              "end": 13
+            }
+          ]
+        },
+        {
+          "text": "PairDrop – sdílení souborů P2P, žádný cloud uprostřed",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 8
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/pairdrop/",
+              "start": 0,
+              "end": 8
+            }
+          ]
+        },
+        {
+          "text": "SearXNG – meta-vyhledávač bez trackingu",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 7
+            },
+            {
+              "type": "link",
+              "url": "https://docs.oscloud.cz/apps/searxng/",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Postupně zde budeme představovat všechny aplikace – použití, tipy, proč je používáme a jak ti můžou pomoct zbavit se big tech závislosti.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 49
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Oficiální web projektu OSCloud",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://oscloud.cz",
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Jak to funguje"
+    },
+    {
+      "type": "text",
+      "text": "Dedikovaný server v EU datacentru u společnosti Hetzner. Přístup pouze správci OSCloud. Žádný třetí strany, žádný analytics, žádný bordel. Všechno aktuální, dashboard na jednom místě."
+    },
+    {
+      "type": "text",
+      "text": "Chceš se registrovat? Napiš na helpdesk.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://helpdesk.oscloud.cz/help/3020290644",
+          "start": 31,
+          "end": 39
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Potřebuješ webhosting nebo vlastní doménu? Řešíme i to."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co chystáme"
+    },
+    {
+      "type": "text",
+      "text": "Jako tým OSCloud služby průběžně rozšiřujeme a nové aplikace přidáváme podle potřeb komunity a reálného využití."
+    },
+    {
+      "type": "hr"
+    },
+    {
+      "type": "text",
+      "text": "OSCloud = soukromí + open source + tvoje data zůstávají tvoje.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 62
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/oscloud-2026.md"
+  }
+}

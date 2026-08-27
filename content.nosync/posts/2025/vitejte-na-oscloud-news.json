@@ -1,0 +1,97 @@
+{
+  "slug": "vitejte-na-oscloud-news",
+  "title": "Vítejte na Oscloud News",
+  "date": "2025-12-13T00:00:00+01:00",
+  "state": "published",
+  "tags": [
+    "oscloud",
+    "novinky"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Ahoj!"
+    },
+    {
+      "type": "text",
+      "text": "Vítejte na novém blogu projektu Oscloud."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Co tu najdete?"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Novinky o službách Oscloud (Matrix, Gitea, PeerTube...)",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "Technické poznámky a návody",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "Changelog – co se mění a proč",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "Plány do budoucna",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Projekt Oscloud"
+    },
+    {
+      "type": "text",
+      "text": "Oscloud je komunitní projekt zaměřený na: - Open source nástroje - Decentralizované služby - Soukromí a svobodu na internetu"
+    },
+    {
+      "type": "text",
+      "text": "Sledujte nás: - Matrix: https://mxchat.cz - Mastodon: https://mamutovo.cz/@oscloud - Gitea: https://git.arch-linux.cz/Oscloud"
+    },
+    {
+      "type": "hr"
+    },
+    {
+      "type": "text",
+      "text": "Další příspěvky brzy!"
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/vitejte-na-oscloud-news.md"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "vhsky-peertube-8-2",
+  "title": "vhsky.cz je na PeerTube 8.2!",
+  "date": "2026-05-30T07:00:00+02:00",
+  "state": "published",
+  "tags": [
+    "PeerTube",
+    "VHSky",
+    "video",
+    "fediverse",
+    "Aktualizace"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "text": "PeerTube, na kterém běží vhsky.cz, byl aktualizován na verzi 8.2. Tahle verze přináší řadu zajímavých novinek.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://vhsky.cz",
+          "start": 25,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Převod kanálu"
+    },
+    {
+      "type": "text",
+      "text": "Vlastník kanálu nyní může převést správu na jiný účet na platformě. Pokud kanál spravovalo více lidí, zůstanou i po převodu."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Pozastavení livestreamu"
+    },
+    {
+      "type": "text",
+      "text": "Při sledování živého přenosu lze stream pozastavit a po návratu pokračovat od místa, kde jsi přestal. Pokud jsi část propásl, můžeš si ji dohnat."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Ořez videa"
+    },
+    {
+      "type": "text",
+      "text": "V editoru (Studio) přibyla možnost odstranit vybraný úsek videa – stačí zadat začátek a konec segmentu."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Vylepšení přehrávače"
+    },
+    {
+      "type": "text",
+      "text": "Rozlišení a rychlost přehrávání se nově pamatují mezi videi. Přibyla také možnost horizontálního zrcadlení videa."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Import z YouTube a synchronizace kanálů"
+    },
+    {
+      "type": "text",
+      "text": "Na vhsky.cz je nově dostupný import videí z YouTube včetně automatické synchronizace kanálů. Stačí zadat URL kanálu nebo playlistu."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Podpora"
+    },
+    {
+      "type": "text",
+      "text": "vhsky.cz provozujeme ve volném čase jako součást OSCloud komunity – bez reklam, bez trackerů. Pokud oceňujete, že taková místa existují, můžete podpořit provoz na oscloud.cz/co-to-bude-stat.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://oscloud.cz/co-to-bude-stat/",
+          "start": 163,
+          "end": 189
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/vhsky-peertube-8-2.md"
+  }
+}

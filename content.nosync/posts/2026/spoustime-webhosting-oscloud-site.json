@@ -1,0 +1,217 @@
+{
+  "slug": "spoustime-webhosting-oscloud-site",
+  "title": "Novinka: Teď nabízíme i webhosting!",
+  "date": "2026-05-08T00:00:00+02:00",
+  "state": "published",
+  "tags": [
+    "webhosting",
+    "oscloud.site",
+    "služby",
+    "novinky"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "text": "Ahoj všichni! 😊"
+    },
+    {
+      "type": "text",
+      "text": "Jako správní členové naší komunity víte, že OSCLOUD.cz není jen o open-source projektech a diskuzích. Vždycky jsme chtěli nabízet služby, které dávají smysl a které skutečně pomáhají lidem jako vy. A teď je ten správný čas rozšířit naše portfolio!"
+    },
+    {
+      "type": "text",
+      "text": "Představujeme vám oscloud.site — náš nový webhosting, který je přirozeným pokračováním toho, co už děláme. Pokud jste někdy používali naše služby nebo jste členem komunity, víte, že se zaměřujeme na kvalitu, transparentnost a skutečnou podporu. Hosting není výjimka.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 18,
+          "end": 30
+        },
+        {
+          "type": "link",
+          "url": "https://oscloud.site",
+          "start": 18,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co všechno dostanete?"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Rychlé NVMe servery: Žádné pomalé načítání — všechno běží na moderních SSD discích s nízkou latencí.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        {
+          "text": "SSL certifikáty zdarma: HTTPS automaticky na všech vašich doménách, bez příplatku.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 23
+            }
+          ]
+        },
+        {
+          "text": "Zálohy každé 4 hodiny: Kompletní zálohy webu, databází i e-mailů s historií 90 dní zpět.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 22
+            }
+          ]
+        },
+        {
+          "text": "E-maily na vlastní doméně: Profesionální schránky — od 10 adres v základním plánu.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 26
+            }
+          ]
+        },
+        {
+          "text": "WordPress na jedno kliknutí: Instalace aplikací bez stresu, více verzí PHP.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 28
+            }
+          ]
+        },
+        {
+          "text": "Migrace zdarma: Přecházíte odjinud? Pomůžeme vám přenést web bez výpadku.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "text": "Komunitní podpora 24/7: Chat, WhatsApp, telefon, e-mail — vždycky jsme tu pro vás.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hosting je postavený na stejných principech jako zbytek našich služeb: férové ceny, žádné skryté poplatky, 30denní záruka vrácení peněz a garance dostupnosti 99,9 %. Nechceme anonymní zákazníky — chceme mít přehled o tom, komu hostujeme, a nabídnout skutečnou podporu každému, kdo se k nám přidá."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Máme čtyři plány podle vašich potřeb"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Základ: Pro začátečníky — 20 GB SSD, neomezený přenos, 10 e-mailů.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "Spravovaný: Všechno v naší správě — ideální pro ty, kdo nechtějí řešit technické detaily.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "text": "Multihosting: Pro větší projekty — 100 GB SSD, 50 e-mailů, více databází.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 13
+            }
+          ]
+        },
+        {
+          "text": "Komunita: Speciální plán pro neziskovky a komunitní projekty — za symbolickou cenu.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Proč jsme se rozhodli nabízet hosting? Protože věříme, že každý by měl mít přístup k spolehlivému webhostingu bez zbytečného stresu. A jako komunita můžeme zajistit, že to bude fungovat právě tak, jak to potřebujete."
+    },
+    {
+      "type": "text",
+      "text": "Pokud máte zájem nebo chcete vědět více, podívejte se na oscloud.site nebo nás kontaktujte přes WhatsApp. Jsme tu pro vás! 🚀",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 57,
+          "end": 69
+        },
+        {
+          "type": "link",
+          "url": "https://oscloud.site",
+          "start": 57,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "S přátelským pozdravem,   Váš OSCLOUD.cz tým"
+    },
+    {
+      "type": "text",
+      "text": "Zjistit více o hostingu →",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://oscloud.site",
+          "start": 0,
+          "end": 25
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/spoustime-webhosting-oscloud-site.md"
+  }
+}

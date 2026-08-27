@@ -1,0 +1,837 @@
+{
+  "slug": "crytpad",
+  "title": "CryptPad: Bezpečná kancelář, která nevidí do vašich dokumentů",
+  "date": "2026-02-07T00:00:00+01:00",
+  "state": "published",
+  "tags": [
+    "cryptpad",
+    "soukromí",
+    "e2ee"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "CryptPad: Bezpečná kancelář, která nevidí do vašich dokumentů"
+    },
+    {
+      "type": "text",
+      "text": "Představte si, že píšete dokument, tabulku nebo poznámky přímo v prohlížeči, sdílíte je s kolegy a spolupracujete v reálném čase – ale na rozdíl od Google Docs nebo Microsoft 365 váš obsah nikdy neuvidí provozovatel serveru, žádná firma ho neskenuje kvůli reklamám a žádný algoritmus ho neanalyzuje. Přesně tohle nabízí CryptPad – open-source kancelářský balík s end-to-end šifrováním.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 320,
+          "end": 328
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Na OSCloud ho najdete na adrese https://cryptpad.arch-linux.cz/ – běží v našem komunitním prostředí bez reklam, trackingu a prodávání dat. Je to nástroj pro každého, kdo chce pracovat s dokumenty online, ale nechce je svěřovat velkým technologickým firmám.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://cryptpad.arch-linux.cz/",
+          "start": 32,
+          "end": 63
+        },
+        {
+          "type": "bold",
+          "start": 32,
+          "end": 63
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "<img src=\"/images/crytpad.png\" alt=\"Crytpad\" width=\"600\">"
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co CryptPad umí"
+    },
+    {
+      "type": "text",
+      "text": "CryptPad není jen textový editor. Nabízí kompletní sadu nástrojů pro práci a spolupráci:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Textové dokumenty – bohatě formátovaný WYSIWYG editor podobný Google Docs",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "text": "Tabulky – pro rozpočty, seznamy, jednoduché výpočty",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 7
+            }
+          ]
+        },
+        {
+          "text": "Prezentace – slides pro prezentace a školení",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "text": "Markdown/kód – pro programátory a pisatele dokumentace",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "text": "Whiteboard – pro náčrty, brainstorming, vizuální spolupráci",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        },
+        {
+          "text": "Kanban – pro projektové plánování ve stylu Trello",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "Formuláře – pro ankety a sběr odpovědí",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "Sdílený disk (Drive) – organizace souborů do složek",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Všechno funguje přímo v prohlížeči, bez instalace. Můžete pracovat sami nebo s ostatními v reálném čase – vidíte kurzory spolupracovníků, změny se synchronizují okamžitě."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Sdílení bez komplikací"
+    },
+    {
+      "type": "text",
+      "text": "Každý dokument můžete sdílet pomocí odkazu. Nemusíte zakládat účet, nemusíte nikoho zvát emailem – stačí poslat URL. K tomu můžete nastavit:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Práva na čtení – ostatní vidí obsah, ale nemohou editovat",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 14
+            }
+          ]
+        },
+        {
+          "text": "Práva na úpravy – kdokoliv s odkazem může měnit obsah",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "text": "Heslo – ochrana odkazu heslem pro citlivější věci",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 5
+            }
+          ]
+        },
+        {
+          "text": "Vlastníka – pokud máte účet, můžete dokument spravovat a mazat",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Bez účtu funguje CryptPad jako anonymní scratchpad – vytvoříte dokument, sdílíte odkaz, spolupracujete. S účtem získáte Drive, historii změn, možnost obnovit smazané dokumenty a lepší správu přístupů."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Bezpečnost a soukromí: jak to funguje"
+    },
+    {
+      "type": "text",
+      "text": "Tady začíná to zajímavé. CryptPad používá end-to-end šifrování (E2EE) – což znamená, že data se šifrují přímo ve vašem prohlížeči ještě předtím, než se odešlou na server. Server ukládá jen šifrovanou kaši, kterou bez klíče nemůže přečíst.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 42,
+          "end": 69
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Zero-knowledge architektura"
+    },
+    {
+      "type": "text",
+      "text": "Provozovatel serveru (v případě OSCloud my) technicky nemůže vidět obsah vašich dokumentů. Nemůžeme je prohledávat, číst, analyzovat ani nikomu předat – protože máme jen zašifrovaná data. Klíč k dešifrování je součástí URL odkazu (za znakem #) a ten se nikdy neposílá na server.",
+      "formatting": [
+        {
+          "type": "code",
+          "start": 241,
+          "end": 242
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Co to znamená v praxi:",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Při úniku databáze útočník získá jen nečitelná zašifrovaná data"
+        },
+        {
+          "text": "Pokud by byl server kompromitován, útočník pořád nemůže přečíst vaše dokumenty"
+        },
+        {
+          "text": "Nemůžeme vás špehovat, prodat vaše data třetím stranám ani je předat na požádání"
+        },
+        {
+          "text": "Dokonce ani nemůžeme obnovit zapomenutý obsah – klíč máte jen vy"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Kde má E2EE hranic"
+    },
+    {
+      "type": "text",
+      "text": "End-to-end šifrování je skvělá věc, ale není to kouzlo, které vyřeší všechno:"
+    },
+    {
+      "type": "text",
+      "text": "Ztráta přístupu: Pokud ztratíte odkaz na dokument (a nemáte účet nebo jej neuložíte do Drive), je pryč navždy. Server nemá jak ho najít nebo obnovit.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Metadata: I když obsah dokumentu je šifrovaný, server vidí _kdy_ a _jak velký_ dokument byl vytvořen, kolik lidí ho upravuje, IP adresy připojení (těch se ale zbavujeme pravidelným mazáním logů).",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Heslo k účtu: Přestože jsou dokumenty šifrované, heslo k vašemu účtu chrání přístup k Drive a seznamu dokumentů. Kompromitované heslo znamená ztrátu kontroly nad účtem. Používejte silné heslo a správce hesel.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 13
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Zálohy a export: Když si dokument exportujete nebo stáhnete, přestává být chráněný šifrováním. Soubor na disku je v plaintextu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 16
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Prohlížeč a zařízení: Pokud máte kompromitovaný prohlížeč, keylogger nebo malware na počítači, E2EE vám nepomůže – útočník může číst data ještě před šifrováním.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 21
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "E2EE je silná ochrana proti útokům na server a proti provozovateli, který by chtěl šmírovat. Ale není to všelék – bezpečnost závisí i na vás."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "CryptPad na OSCloud"
+    },
+    {
+      "type": "text",
+      "text": "OSCloud je komunitní ekosystém open-source služeb, které fungují jako alternativa k velkým komerčním platformám. CryptPad sem zapadá perfektně:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Komunitní provoz – žádná firma, která by vámi vydělávala, žádné reklamy, žádný tracking",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "text": "EU datacentrum – servery běží v Německu (Hetzner), podléhají evropským zákonům o ochraně dat",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "CryptPad na OSCloud je primárně pro členy komunity – lidi, kteří chtějí alternativu k big-tech kancelářím, ale nechtějí obětovat pohodlí. Není to replacement pro Google – je to nástroj pro ty, kdo vědomě odmítají surveillance capitalism a chtějí si udržet kontrolu nad svými daty."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Pro koho se to hodí"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Malé týmy a komunity – sdílené zápisy, plánování, dokumentace bez závislosti na Google Workspace",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 20
+            }
+          ]
+        },
+        {
+          "text": "Studenti a učitelé – spolupráce na projektech bez trackingu a profilování",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "Aktivisté a občanské iniciativy – bezpečnější místo pro citlivé dokumenty",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 31
+            }
+          ]
+        },
+        {
+          "text": "Kdokoliv řešící soukromí – prostě nechcete, aby vaše poznámky četl algoritmus",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Nejde o paranoju – jde o rozumnou prevenci a princip. Proč by měl Google vědět, co píšete do soukromých dokumentů?"
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Praktické scénáře"
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Sdílené zápisy z porady"
+    },
+    {
+      "type": "text",
+      "text": "Vytvoříte dokument, nastavíte práva na úpravy, pošlete odkaz týmu. Všichni zapisují poznámky v reálném čase, vidíte kurzory ostatních. Po poradě uložíte finální verzi do svého Drive nebo ji exportujete jako PDF."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Plánování projektu (kanban)"
+    },
+    {
+      "type": "text",
+      "text": "Založíte kanban board s kolonkami „TODO\", „Doing\", „Done\". Každý člen týmu má odkaz s právy na úpravy, tahá kartičky, přidává úkoly. Obsah je šifrovaný, nikdo cizí nevidí, co plánujete."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Společná tabulka na rozpočet"
+    },
+    {
+      "type": "text",
+      "text": "Sdílený rozpočet akce, společné výdaje na byt, sběr příspěvků – tabulka s pravidelnými vzorci. Sdílíte odkaz, každý vidí aktuální stav, může přidávat položky."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Anonymní dokument bez registrace"
+    },
+    {
+      "type": "text",
+      "text": "Potřebujete rychle něco napsat s někým, kdo nemá účet? Vytvoříte dokument anonymně, pošlete odkaz. Po dokončení práce dokument smažete nebo necháte vypršet (pokud existuje expirace – závisí na nastavení instance)."
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Bezpečné sdílení citlivějších poznámek"
+    },
+    {
+      "type": "text",
+      "text": "Máte citlivé poznámky (hesla, kontakty, drafty článků)? Vytvoříte dokument s heslem, pošlete odkaz bezpečným kanálem (Matrix, Signal), heslo pošlete jiným kanálem. I když někdo odposlouchává jednu cestu, nemá kompletní přístup."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Tipy pro používání"
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Jak sdílet bezpečně"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Práva: Pro běžnou spolupráci dávejte práva na úpravy. Pro sdílení finálních výstupů nebo citlivějších věcí jen práva na čtení.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "Heslo: Používejte heslo na dokument, pokud sdílíte citlivější věci nebo přes nedůvěryhodný kanál (email, veřejný chat).",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 6
+            }
+          ]
+        },
+        {
+          "text": "Expirace: Pokud instance podporuje nastavení expirace dokumentu, použijte to pro dočasné sdílení.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 9
+            }
+          ]
+        },
+        {
+          "text": "Rozdělení tajemství: Odkaz posílejte jedním kanálem (Matrix), heslo jiným (SMS, osobně). Odposlech jedné cesty nestačí.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Jak nepřijít o přístup"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Uložte si odkazy: Bez účtu nemáte Drive – pokud ztratíte odkaz, dokument je pryč. Ukládejte je do správce hesel, bookmarků nebo poznámek.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "text": "Založte si účet: S účtem máte všechno v Drive, můžete dokumenty organizovat do složek, obnovovat smazané, sdílet bezpečněji.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        },
+        {
+          "text": "Export a záloha: Důležité dokumenty exportujte ven (PDF, Markdown, HTML) – CryptPad není primárně archivační úložiště.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Doporučení pro týmy"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Organizace složek: Vytvořte strukturu složek podle projektů nebo témat. Sdílejte celé složky s týmem.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "Názvosloví: Pojmenujte dokumenty jasně – „Zápis z porady 2025-01-25\", ne „Dokument 1\". Usnadní to hledání.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "text": "Pravidla přístupu: Dohodněte se, kdo má práva na úpravy, kdo jen na čtení. U citlivějších věcí používejte hesla.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 18
+            }
+          ]
+        },
+        {
+          "text": "Archivace: Staré dokumenty buď exportujte, nebo je přesuňte do archivní složky. Nemazejte bez domluvy.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Shrnutí"
+    },
+    {
+      "type": "text",
+      "text": "CryptPad je open-source kancelářský balík s end-to-end šifrováním, který dává uživatelům kontrolu nad jejich daty. Na OSCloud ho najdete jako komunitní službu bez reklam, trackingu a profilování – na adrese https://cryptpad.arch-linux.cz/.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://cryptpad.arch-linux.cz/",
+          "start": 207,
+          "end": 238
+        },
+        {
+          "type": "bold",
+          "start": 207,
+          "end": 238
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Hlavní výhody:",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 14
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "End-to-end šifrování – server nevidí obsah dokumentů"
+        },
+        {
+          "text": "Spolupráce v reálném čase bez nutnosti instalace"
+        },
+        {
+          "text": "Sdílení odkazem s nastavitelnými právy a heslem"
+        },
+        {
+          "text": "Kompletní sada nástrojů – dokumenty, tabulky, prezentace, kanban, whiteboard"
+        },
+        {
+          "text": "Komunitní provoz v EU bez závislosti na big-tech"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Ideální pro:",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Lidi, kteří řeší soukromí a nechtějí korporátní surveillance"
+        },
+        {
+          "text": "Malé týmy a komunity hledající alternativu k Google Workspace"
+        },
+        {
+          "text": "Kohokoliv, kdo chce pracovat s dokumenty online, ale bez trackingu"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Zkuste to: Otevřete https://cryptpad.arch-linux.cz/, vytvořte dokument (i bez účtu) a vyzkoušejte, jestli vám to sedne. Pokud ano, založte si účet a začněte organizovat dokumenty do složek. Je to jednodušší, než si myslíte – a rozhodně bezpečnější než posílat poznámky přes Gmail nebo ukládat citlivé věci do Google Docs.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "type": "link",
+          "url": "https://cryptpad.arch-linux.cz/",
+          "start": 20,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "type": "hr"
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "FAQ"
+    },
+    {
+      "type": "text",
+      "text": "Můžu používat CryptPad bez účtu?   Ano. Dokument vytvoříte anonymně, sdílíte odkaz a pracujete. Bez účtu ale nemáte Drive a ztráta odkazu znamená ztrátu přístupu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 32
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Je to opravdu bezpečné?   End-to-end šifrování znamená, že server nemá přístup k obsahu dokumentů. Bezpečnost ale závisí i na vás – silné heslo, bezpečné sdílení odkazů, zabezpečené zařízení.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 23
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Co když ztratím odkaz na dokument?   Bez účtu je dokument nenávratně pryč. S účtem máte dokumenty v Drive a můžete je obnovit.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Můžu to používat na mobilu?   Ano, CryptPad funguje v mobilním prohlížeči. Není to ideální pro rozsáhlé úpravy, ale prohlížení a základní změny zvládnete.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Jak se liší od Google Docs?   Google Docs skenuje obsah dokumentů kvůli reklamám a funkcím (suggestions, smart compose). CryptPad obsah vůbec nevidí – je end-to-end šifrovaný. Nemáte tolik funkcí (AI, integrace, šablony), ale máte soukromí.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 27
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Můžu exportovat dokumenty ven?   Ano. Dokumenty stáhnete jako PDF, Markdown, HTML, .bin (šifrovaná záloha) nebo je zkopírujete do schránky.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Co když zapomenu heslo k účtu?   Heslo nelze obnovit – je to cena za zero-knowledge. Používejte správce hesel a ukládejte si záložní přístupové údaje.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Je to zadarmo?   Na OSCloud ano – služba je provozovaná komunitně za dobrovolné příspěvky.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 0,
+          "end": 14
+        },
+        {
+          "type": "link",
+          "url": "https://oscloud.cz/co-to-bude-stat/",
+          "start": 34,
+          "end": 89
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "<img src=\"/images/crytpad2.jpg\" alt=\"Ukázka Markdown kódu\" width=\"600\">"
+    }
+  ],
+  "source": {
+    "platform": "jekyll",
+    "account": "blog-oscloud-cz-d3aef4da",
+    "original_id": "content/posts/crytpad.md"
+  }
+}
