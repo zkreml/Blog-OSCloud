@@ -543,10 +543,25 @@ What it looks for, each with a line saying what to do about it:
   differing only in digits are left alone (`rok-2025` next to `rok-2026`
   is two year-series, not a typo).
 - **One old address claimed by two posts.** Whichever renders last wins
+  and the other's readers land on it.
 - **Two posts that would be served at one address.** The build refuses to
   run at all in this state, so this is the one finding that stands between
   you and a site that cannot be rebuilt.
-  and the other's readers land on it.
+- **A `redirect_from` the build will not serve** -- one whose first segment
+  belongs to the site itself (`/tag/...`, `/posts/...`), or whose shape no
+  directory can be made of. The build says so once, in the middle of a log
+  nobody keeps, and the old address quietly 404s; worse, a link pointing at
+  it used to pass as sound.
+
+- **Text carrying HTML entities instead of the characters they stand
+  for.** `journalists &amp; writers` reads as `journalists &amp; writers`
+  on the page: the build escapes it again, correctly, because as far as it
+  knows the ampersand is what you wrote. Twitter escapes `&`, `<` and `>`
+  in its archive without saying so, and the importer only learned to decode
+  them in 1.4 -- so an archive imported before that carries them, and
+  upgrading cannot help, since by then they are in the posts. Reported
+  rather than corrected: somebody writing *about* html has every right to
+  `&amp;` in their text.
 
 It only reports, unless you ask it not to. On its own -- and that is how
 cron runs it -- nothing here deletes a directory or rewrites a post: the
