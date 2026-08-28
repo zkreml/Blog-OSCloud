@@ -1,0 +1,201 @@
+{
+  "slug": "fotky-v-cloudu-ale-bez-googlovych-oci",
+  "title": "Fotky v cloudu, ale bez Googlových očí",
+  "date": "2026-08-28T07:18:40+02:00",
+  "created_at": "2026-08-28T07:18:40+02:00",
+  "state": "draft",
+  "draft_token": "3929ab291808dd45",
+  "tags": [
+    "ente",
+    "fotky",
+    "e2ee",
+    "soukromí",
+    "google photos",
+    "navody"
+  ],
+  "content": [
+    {
+      "type": "text",
+      "text": "Zkuste si otevřít mobil a podívat se, kolik máte ve fotkách snímků. U většiny lidí je to klidně 5, 10, 20 tisíc fotek — děti, dovolené, doklady, screenshoty, fotka receptu od tchýně, sto fotek jednoho západu slunce, protože jste nemohli vybrat tu nejlepší. Prostě celý život v kapse."
+    },
+    {
+      "type": "text",
+      "text": "A teď druhá otázka, na kterou většina lidí neumí odpovědět: kde ty fotky vlastně jsou? Ne fyzicky v telefonu — ale kde se zálohují, kdo se k nim může dostat a co se s nimi kromě zálohování ještě děje."
+    },
+    {
+      "type": "text",
+      "text": "U drtivé většiny lidí je odpověď: v Google Photos nebo v iCloudu. A to je naprosto v pořádku volba — jen o ní stojí za to vědět trochu víc, než jen \"funguje to automaticky a mám to zdarma\"."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co se s fotkami u Googlu a Applu skutečně děje"
+    },
+    {
+      "type": "text",
+      "text": "Nejde o žádnou konspiraci ani o to, že by vám Google chtěl ukrást rodinné album. Jde o to, jak jsou tyhle služby postavené."
+    },
+    {
+      "type": "text",
+      "text": "Google Photos vaše fotky aktivně analyzuje — to je ostatně důvod, proč umí poznat, že na fotce je pes, najít všechny snímky s babičkou, nebo vám automaticky poskládat \"vzpomínku\" z dovolené. Aby to fungovalo, musí se každá fotka, kterou nahrajete, projít a vyhodnotit. Letos v dubnu Google navíc spustil funkci Gemini Personal Intelligence, která na vyžádání (zatím je to volitelné) prochází celou vaši fotogalerii, aby z ní AI dokázala generovat personalizované obrázky s vašimi blízkými. A v červnu 2026 Google potichu upravil nastavení \"historie vyhledávacích služeb\" tak, že ve výchozím stavu — bez nutnosti cokoliv zapínat — začal ukládat fotky nahrané přes Google Lens a další vyhledávací nástroje pro trénink svých AI modelů, a to i lidem, kteří si dřív podobné sdílení dat vypnuli. Google tvrdí, že samotnou vaši knihovnu fotek přímo netrénuje své modely na ní — ale zároveň nikde jasně neříká, že jsou vaše fotky z tréninku úplně vyloučené, a politika se v čase mění."
+    },
+    {
+      "type": "text",
+      "text": "U Applu je to trochu jinak, ale ne zázračně jinak. iCloud ve výchozím nastavení fotky nešifruje tak, že by k nim Apple technicky neměl přístup — data jsou chráněná, ale klíče drží (mimo jiné) i Apple. Existuje volitelná funkce Advanced Data Protection, po jejímž zapnutí se i fotky v iCloudu opravdu end-to-end šifrují a Apple k nim přestane mít přístup. Jenže je to právě jen volitelné — musíte si ji sami aktivně zapnout, není dostupná ve všech zemích a ani po zapnutí nepokrývá třeba sdílená alba nebo odkazy \"pro kohokoliv\".",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 227,
+          "end": 251
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Shrnuto: u obou velkých hráčů je běžné, že provozovatel má k obsahu vašich fotek technický přístup, a čím dál častěji ho i aktivně využívá pro AI funkce. Ne proto, že by byli zlí — je to prostě obchodní model, na kterém tyhle služby stojí."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co znamená \"fotky vidíte jen vy\""
+    },
+    {
+      "type": "text",
+      "text": "Tady se hodí jednoduché přirovnání. Představte si klasickou poštovní schránku u domu — má zámek, ale pošťák i domovník k ní mají náhradní klíč, \"pro případ nouze\". Nikdo ho běžně nepoužívá, ale existuje, a teoreticky ho může použít kdokoliv, kdo se k němu dostane — ať už zaměstnanec, hacker, nebo někdo s úředním příkazem."
+    },
+    {
+      "type": "text",
+      "text": "End-to-end šifrování je jako trezor, který si sami zamknete ještě doma, než ho pošlete na poštu. Server, přes který trezor putuje, ho jen přepravuje a uskladní — ale klíč od zámku má jen a pouze ten, komu je trezor určen. Ani firma, která trezory přepravuje, se dovnitř nepodívá, protože klíč fyzicky nemá."
+    },
+    {
+      "type": "text",
+      "text": "U fotek to prakticky znamená, že se snímek zašifruje přímo ve vašem telefonu ještě předtím, než ho vůbec odešlete na server. Server pak vidí jen \"krabičku\" nesmyslných dat a to, kolik místa zabírá — ne co je uvnitř. Nemůže ji analyzovat, poznávat na ní tváře, ani ji použít na trénink žádné AI, protože k tomu prostě nemá klíč."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Proč zrovna komunitní řešení"
+    },
+    {
+      "type": "text",
+      "text": "Tady přichází na řadu Ente Photos na oscloud.photos — end-to-end šifrovaná alternativa ke Google Photos, kterou jsme spustili v srpnu. Nejde o žádnou firmu se sídlem na druhém konci světa, ale o instanci, kterou provozujeme my — komunita OSCloud — na vlastních serverech u Hetzneru v německém Falkensteinu, tedy v EU.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 22,
+          "end": 51
+        },
+        {
+          "type": "link",
+          "url": "https://docs.oscloud.cz/apps/ente-photos/",
+          "start": 22,
+          "end": 51
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "To má konkrétní důsledky: vaše data podléhají evropskému GDPR, ne americkému CLOUD Actu. Provozovatel není anonymní korporát vydělávající na reklamě, ale konkrétní lidi, na které se dá napsat na <podpora@oscloud.cz> a dostanete odpověď od člověka, ne od chatbota. A protože je samotný Ente open source, nemusíte nikomu jen věřit na slovo — šifrování si může kdokoliv ověřit přímo v kódu; nezávisle ho navíc prověřily bezpečnostní firmy Cure53 a Symbolic Software."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Jak snadné je přejít"
+    },
+    {
+      "type": "text",
+      "text": "Přechod není složitý:"
+    },
+    {
+      "type": "list",
+      "style": "ol",
+      "items": [
+        {
+          "text": "Zaregistrujete se na oscloud.photos — 10 GB dostanete zdarma a navždy",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 21,
+              "end": 35
+            }
+          ]
+        },
+        {
+          "text": "Stáhnete si appku pro mobil (Android i iOS) nebo desktop"
+        },
+        {
+          "text": "Nastavíte v ní vlastní server https://oscloud.photos",
+          "formatting": [
+            {
+              "type": "code",
+              "start": 30,
+              "end": 52
+            }
+          ]
+        },
+        {
+          "text": "Zapnete automatické zálohování — a odteď se nové fotky zálohují samy na pozadí, stejně jako jste zvyklí z Google Photos"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Kdo chce přenést i staré fotky z Google Photos nebo z Apple Photos, Ente má na to hotové návody na import — vaše stará knihovna se dá naimportovat celá, včetně alb. Pokud potřebujete víc místa než 10 GB zdarma, tarify začínají na 49 Kč/měsíc za 50 GB, po 439 Kč/měsíc za 2 TB — a rodinný plán umožní úložiště sdílet s dalšími čtyřmi lidmi bez příplatku, každý má přitom pořád jen svoje vlastní soukromé fotky."
+    },
+    {
+      "type": "text",
+      "text": "Detailní návod krok za krokem, včetně nastavení serveru v jednotlivých appkách, najdete v naší dokumentaci: docs.oscloud.cz/apps/ente-photos.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 108,
+          "end": 140
+        },
+        {
+          "type": "link",
+          "url": "https://docs.oscloud.cz/apps/ente-photos/",
+          "start": 108,
+          "end": 140
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Jedna věc na rovinu"
+    },
+    {
+      "type": "text",
+      "text": "End-to-end šifrování má i odvrácenou stranu, o které je fér mluvit předem, ne se o ní dozvědět, až když je pozdě: protože klíč k datům máte jen vy, jste za něj i vy zodpovědní. Když zapomenete heslo a zároveň ztratíte záložní obnovovací klíč, fotky jsou nenávratně pryč — neexistuje tlačítko \"obnovit heslo\", protože my jako provozovatel ten klíč technicky ani mít nemůžeme."
+    },
+    {
+      "type": "text",
+      "text": "Řešení je jednoduché: heslo si uložte do správce hesel a obnovovací klíč, který dostanete při registraci, si bezpečně schovejte (klidně vytištěný v šuplíku). A obecně neberte žádnou jednu službu — ani Ente, ani Google Photos — jako jedinou kopii rodinných vzpomínek. Druhá nezávislá záloha (externí disk, jiná služba) se hodí vždycky, bez ohledu na to, kde fotky primárně máte."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Vyzkoušejte to"
+    },
+    {
+      "type": "text",
+      "text": "Nikdo vás nenutí mazat účet u Googlu ze dne na den. Ale 10 GB zdarma navždy stačí na to, abyste si Ente Photos vyzkoušeli bez rizika a sami posoudili, jestli vám to sedí. Návod, jak začít, je tady: docs.oscloud.cz/apps/ente-photos.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 198,
+          "end": 230
+        },
+        {
+          "type": "link",
+          "url": "https://docs.oscloud.cz/apps/ente-photos/",
+          "start": 198,
+          "end": 230
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "manual"
+  }
+}
