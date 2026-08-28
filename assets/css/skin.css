@@ -366,6 +366,8 @@ main .post-list-item {
 .post-header .content { order: 5; flex: 0 0 100%; }
 .post-header .read-more { order: 6; margin-top: 0.5rem; }
 .post-header .series-nav { order: 7; flex: 0 0 100%; }
+.post-header .toc { order: 4; }
+.post-header .comments { order: 8; flex: 0 0 100%; }
 
 .post-header .content { margin-top: 0.75rem; }
 
