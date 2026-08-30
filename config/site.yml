@@ -53,6 +53,8 @@ nav:
   - { label: "Domů", url: "/" }
   - { label: "Návody", tag: "oscloud" }
   - { label: "Zprávy", tag: "soukromi" }
+  - { label: "Archiv", url: "/archive/" }
+  - { label: "Štítky", url: "/tag/" }
   - { label: "Helpdesk", url: "https://helpdesk.oscloud.cz/help/3020290644" }
   - { label: "Dokumentace", url: "https://docs.oscloud.cz" }
 
