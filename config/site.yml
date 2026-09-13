@@ -51,8 +51,8 @@ layout:
 
 nav:
   - { label: "Domů", url: "/" }
-  - { label: "Návody", tag: "návody" }
-  - { label: "Zprávy", tag: "zprávy" }
+  - { label: "Návody", tag: "navody" }
+  - { label: "Zprávy", tag: "zpravy" }
   - { label: "Archiv", url: "/archive/" }
   - { label: "Štítky", url: "/tag/" }
   - { label: "Helpdesk", url: "https://helpdesk.oscloud.cz/help/3020290644" }
