@@ -1,0 +1,148 @@
+{
+  "slug": "oscloud-je-od-patku-oficialne-spolek",
+  "title": "OSCloud je od pátku oficiálně spolek",
+  "date": "2026-09-13T18:05:14+02:00",
+  "created_at": "2026-09-13T18:02:54+02:00",
+  "state": "published",
+  "tags": [
+    "oscloud",
+    "spolek",
+    "novinky"
+  ],
+  "content": [
+    {
+      "type": "image",
+      "media": [
+        {
+          "url": "01.png",
+          "width": 800,
+          "height": 492
+        }
+      ],
+      "alt_text": "Logo OSCloud"
+    },
+    {
+      "type": "text",
+      "text": "Od pátku má OSCloud za sebou papírování, které jsme odkládali dost dlouho — jsme oficiálně registrovaný spolek. OSCloud, z. s., IČO 29991145, sídlo Pionýrů 1332, Sokolov, zapsáno u Krajského soudu v Plzni (oddíl L, vložka 11449).",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 112,
+          "end": 126
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Proč to bylo potřeba"
+    },
+    {
+      "type": "text",
+      "text": "OSCloud dlouho fungoval jako moje soukromá věc — server platím já. To dávalo smysl, dokud šlo o pár kamarádů na jednom serveru. Jenže projekt vyrostl a dneska ho vedeme spolu s Ivanem — a pro dva lidi, kteří společně spravují placené služby, zálohy a support, potřebujeme právní strukturu, ne osobní jméno jednoho z nás."
+    },
+    {
+      "type": "text",
+      "text": "Spolek řeší hlavně tohle:"
+    },
+    {
+      "type": "list",
+      "style": "ul",
+      "items": [
+        {
+          "text": "Oddělení odpovědnosti — OSCloud teď není \"moje soukromá věc\", ale samostatný právní subjekt s vlastním IČO.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 21
+            }
+          ]
+        },
+        {
+          "text": "Legální fakturace — spolek má zapsanou vedlejší hospodářskou činnost (IT hosting, konzultace, zpracování dat), takže OSCloud teď poprvé může vystavovat oficiální faktury — třeba i firmám nebo jiným organizacím, které to pro své účetnictví potřebují. Jako soukromá aktivita to možné nebylo.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 17
+            }
+          ]
+        },
+        {
+          "text": "Transparentnost — jasně oddělené peníze na provoz OSCloud od osobních financí kohokoli z nás.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 15
+            }
+          ]
+        },
+        {
+          "text": "Udržitelnost — spolek je základ, na kterém se dá provoz stavět dál, aniž by vše viselo na jednom člověku.",
+          "formatting": [
+            {
+              "type": "bold",
+              "start": 0,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Nic z tohohle neznamená změnu v tom, jak OSCloud funguje technicky nebo jak k němu přistupujete — pořád stejný OSCloud, stejné služby, stejní lidi za tím."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co se mění pro vás"
+    },
+    {
+      "type": "text",
+      "text": "Bohužel jedna praktická věc se týká přímo vás, pokud OSCloud platíte: budeme měnit platební účet. Peníze budou muset chodit na účet spolku místo dosavadního čísla účtu.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 70,
+          "end": 96
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Číslo nového účtu ještě nemáme — založíme ho příští pátek a hned jak bude hotový, dáme vědět (dřív to bohužel nestihneme). Do té doby platí beze změny, žádné narychlo přehazování na poslední chvíli."
+    },
+    {
+      "type": "text",
+      "text": "Až nový účet naběhne, prosíme posílejte platby už na něj. Starý účet ale ještě nějakou dobu nerušíme, aby měl každý klid a čas na přechod bez stresu — víme, že trvalé příkazy a fakturační údaje se nemění ze dne na den."
+    },
+    {
+      "type": "text",
+      "text": "Nově dokážeme vystavit oficiální fakturu na OSCloud, z. s. — pokud to potřebujete pro účetnictví, ať už jako firma nebo jiná organizace, stačí napsat na helpdesk, doplníme fakturační údaje."
+    },
+    {
+      "type": "text",
+      "text": "Pro pořádek: OSCloud ani spolek za ním nikdy nebude nijak spolupracovat s žádnou politickou stranou ani hnutím, ani se jinak angažovat v politice. To se touhle registrací nemění a nezmění se to ani do budoucna."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co dál"
+    },
+    {
+      "type": "text",
+      "text": "Registrace je hotová, teď doladíme praktické věci kolem (fakturační šablony, aktualizace údajů na webu a v helpdesku). Budeme vás dál informovat — zatím musíme vše postupně nastavit a připravit."
+    },
+    {
+      "type": "text",
+      "text": "Díky, že jste s OSCloud — ať už jako platící člen nebo jen jako někdo, kdo občas nakoukne na blog."
+    }
+  ],
+  "source": {
+    "platform": "manual"
+  },
+  "mastodon_url": "https://mamutovo.cz/@oscloud/117264581602745604"
+}
