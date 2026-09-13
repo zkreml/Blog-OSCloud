@@ -51,8 +51,8 @@ layout:
 
 nav:
   - { label: "Domů", url: "/" }
-  - { label: "Návody", tag: "oscloud" }
-  - { label: "Zprávy", tag: "soukromi" }
+  - { label: "Návody", tag: "návody" }
+  - { label: "Zprávy", tag: "zprávy" }
   - { label: "Archiv", url: "/archive/" }
   - { label: "Štítky", url: "/tag/" }
   - { label: "Helpdesk", url: "https://helpdesk.oscloud.cz/help/3020290644" }
@@ -102,7 +102,7 @@ widgets:
     # instance is optional -- it falls back to mastodon.instance below,
     # so set it only when the widget shows an account living elsewhere.
     # instance: "mastodon.social"
-    account_id: "111674651383349773"  # the account's API id, not the @handle -- a number on Mastodon, a ULID on GoToSocial
+    account_id: "111674651383349773" # the account's API id, not the @handle -- a number on Mastodon, a ULID on GoToSocial
     limit: 3
   commits:
     heading: "Poslední commity"

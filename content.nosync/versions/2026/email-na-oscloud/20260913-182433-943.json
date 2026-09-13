@@ -10,7 +10,7 @@
     "Thunderbird",
     "webmail",
     "soukromí",
-    "návody"
+    "Návody"
   ],
   "content": [
     {
@@ -37,6 +37,10 @@
     {
       "type": "text",
       "text": "V tomto článku vás provedeme od úplného začátku – co e-mail na OSCloud nabízí, jak se přihlásit přes webmail, jak nastavit Thunderbird, mobilní klienty a co dělat, když něco nefunguje."
+    },
+    {
+      "type": "text",
+      "text": "<!--more-->"
     },
     {
       "type": "text",
@@ -824,73 +828,67 @@
               "start": 54,
               "end": 71
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "style": "ul",
-      "items": [
-        {
-          "text": "Typ účtu: IMAP",
-          "formatting": [
-            {
-              "type": "bold",
-              "start": 10,
-              "end": 14
-            }
-          ]
+          ],
+          "children": {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              {
+                "text": "Typ účtu: IMAP",
+                "formatting": [
+                  {
+                    "type": "bold",
+                    "start": 10,
+                    "end": 14
+                  }
+                ]
+              },
+              {
+                "text": "IMAP server: my.oscloud.cz, port 993, šifrování SSL/TLS",
+                "formatting": [
+                  {
+                    "type": "code",
+                    "start": 13,
+                    "end": 26
+                  },
+                  {
+                    "type": "code",
+                    "start": 33,
+                    "end": 36
+                  },
+                  {
+                    "type": "bold",
+                    "start": 48,
+                    "end": 55
+                  }
+                ]
+              },
+              {
+                "text": "SMTP server: my.oscloud.cz, port 587, šifrování STARTTLS",
+                "formatting": [
+                  {
+                    "type": "code",
+                    "start": 13,
+                    "end": 26
+                  },
+                  {
+                    "type": "code",
+                    "start": 33,
+                    "end": 36
+                  },
+                  {
+                    "type": "bold",
+                    "start": 48,
+                    "end": 56
+                  }
+                ]
+              },
+              {
+                "text": "Uživatelské jméno: vaše plná e-mailová adresa"
+              }
+            ]
+          }
         },
-        {
-          "text": "IMAP server: my.oscloud.cz, port 993, šifrování SSL/TLS",
-          "formatting": [
-            {
-              "type": "code",
-              "start": 13,
-              "end": 26
-            },
-            {
-              "type": "code",
-              "start": 33,
-              "end": 36
-            },
-            {
-              "type": "bold",
-              "start": 48,
-              "end": 55
-            }
-          ]
-        },
-        {
-          "text": "SMTP server: my.oscloud.cz, port 587, šifrování STARTTLS",
-          "formatting": [
-            {
-              "type": "code",
-              "start": 13,
-              "end": 26
-            },
-            {
-              "type": "code",
-              "start": 33,
-              "end": 36
-            },
-            {
-              "type": "bold",
-              "start": 48,
-              "end": 56
-            }
-          ]
-        },
-        {
-          "text": "Uživatelské jméno: vaše plná e-mailová adresa"
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "style": "ol",
-      "items": [
         {
           "text": "Uložte nastavení a otestujte odesláním zkušebního e-mailu."
         }
@@ -980,36 +978,30 @@
           ]
         },
         {
-          "text": "Do sekce „Server příchozí pošty\" zadejte:"
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "style": "ul",
-      "items": [
-        {
-          "text": "Název hostitele: my.oscloud.cz",
-          "formatting": [
-            {
-              "type": "code",
-              "start": 17,
-              "end": 30
-            }
-          ]
+          "text": "Do sekce „Server příchozí pošty\" zadejte:",
+          "children": {
+            "type": "list",
+            "style": "ul",
+            "items": [
+              {
+                "text": "Název hostitele: my.oscloud.cz",
+                "formatting": [
+                  {
+                    "type": "code",
+                    "start": 17,
+                    "end": 30
+                  }
+                ]
+              },
+              {
+                "text": "Uživatelské jméno: vaše plná e-mailová adresa"
+              },
+              {
+                "text": "Heslo: vaše heslo k OSCloud"
+              }
+            ]
+          }
         },
-        {
-          "text": "Uživatelské jméno: vaše plná e-mailová adresa"
-        },
-        {
-          "text": "Heslo: vaše heslo k OSCloud"
-        }
-      ]
-    },
-    {
-      "type": "list",
-      "style": "ol",
-      "items": [
         {
           "text": "Do sekce „Server odchozí pošty\" zadejte stejné údaje."
         },

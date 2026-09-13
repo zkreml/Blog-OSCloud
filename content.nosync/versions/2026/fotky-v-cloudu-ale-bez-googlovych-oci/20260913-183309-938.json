@@ -9,7 +9,7 @@
     "e2ee",
     "soukromí",
     "google photos",
-    "návody"
+    "navody"
   ],
   "content": [
     {
@@ -207,6 +207,6 @@
   "source": {
     "platform": "manual"
   },
-  "mastodon_url": "https://mamutovo.cz/@oscloud/117171507472727054",
-  "created_at": "2026-08-28T07:18:40+02:00"
+  "created_at": "2026-08-28T07:18:40+02:00",
+  "mastodon_url": "https://mamutovo.cz/@oscloud/117171507472727054"
 }
