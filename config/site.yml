@@ -93,10 +93,6 @@ comments:
   approval: fav
 
 widgets:
-  rss:
-    heading: "Z Fediverse"
-    feed_url: "https://mamutovo.cz/@oscloud.rss"
-    limit: 5
   toots:
     heading: "Poslední tooty"
     # instance is optional -- it falls back to mastodon.instance below,
