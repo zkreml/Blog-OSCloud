@@ -1,0 +1,326 @@
+{
+  "slug": "opodsync-na-oscloud-synchronizace-podcastu-bez-cizich-serveru",
+  "title": "oPodSync na OSCloud: synchronizace podcastů bez cizích serverů",
+  "date": "2026-09-25T08:30:27+02:00",
+  "created_at": "2026-09-25T08:25:03+02:00",
+  "state": "published",
+  "tags": [
+    "návody",
+    "podcasty",
+    "oPodSync",
+    "AntennaPod"
+  ],
+  "content": [
+    {
+      "type": "image",
+      "media": [
+        {
+          "url": "01.png",
+          "width": 1200,
+          "height": 630
+        }
+      ],
+      "alt_text": "oPodSync na OSCloud – synchronizace podcastů"
+    },
+    {
+      "type": "text",
+      "text": "Poslouchat podcast na telefonu cestou do práce a doma na tabletu pokračovat přesně tam, kde jsi skončil. Přesně tohle umí synchronizace podcastů. A od teď ji na OSCloud máme i s vlastním serverem: oPodSync na https://podsync.oscloud.cz/.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 197,
+          "end": 205
+        },
+        {
+          "type": "code",
+          "start": 209,
+          "end": 236
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "K čemu je synchronizace podcastů"
+    },
+    {
+      "type": "text",
+      "text": "Bez synchronizace je každé zařízení ostrov. Odebíráš pořad na telefonu, ale na tabletu ho musíš přidat znovu. Poslechneš půlku epizody a jinde ji začínáš od nuly. Stará epizoda, kterou už jsi slyšel, se ti objeví jako nová."
+    },
+    {
+      "type": "text",
+      "text": "Sync server drží na jednom místě dvě věci: seznam odběrů a historii přehrávání (co je poslechnuté a kde jsi skončil). Klienti se k němu připojují a informace si mezi sebou předávají.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 43,
+          "end": 56
+        },
+        {
+          "type": "bold",
+          "start": 59,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Řada aplikací to řeší přes gpodder.net nebo přes účet u někoho třetího. My to máme na vlastním serveru, takže tvoje poslechová historie zůstává u nás."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Co je oPodSync"
+    },
+    {
+      "type": "text",
+      "text": "oPodSync (dříve Micro GPodder Server) je minimalistický synchronizační server od kd2org. Implementuje gPodder API, takže mluví s klienty, které už znáš:"
+    },
+    {
+      "type": "text",
+      "text": "- AntennaPod (Android) - gPodder desktop - klienti kompatibilní s Nextcloud gPodder Sync API Je open source, self-hosted a nic v něm netrackuje. Nemá žádné sociální funkce, doporučení ani statistiky. Ukládá jen to, co potřebuje k synchronizaci. Na OSCloud běží přes Cloudron stejně jako ostatní služby."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Založení účtu"
+    },
+    {
+      "type": "text",
+      "text": "Otevři https://podsync.oscloud.cz/ a zaregistruj se. Zvol si uživatelské jméno a heslo, ideálně unikátní a z password manageru. Stejné údaje pak zadáš do podcastových aplikací.",
+      "formatting": [
+        {
+          "type": "code",
+          "start": 7,
+          "end": 34
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Nastavení v AntennaPodu"
+    },
+    {
+      "type": "text",
+      "text": "Kroky níž jsou pro AntennaPod, ale u ostatních klientů je to podobné."
+    },
+    {
+      "type": "text",
+      "text": "1. Otevři Nastavení → Synchronizace. 2. Jako poskytovatele vyber vlastní gPodder server (ne gpodder.net). 3. Do pole s adresou serveru zadej https://podsync.oscloud.cz/ 4. Zadej jméno a heslo, které jsi vytvořil při registraci. 5. AntennaPod nabídne zařízení. Vyber existující, nebo vytvoř nové a pojmenuj ho třeba telefon nebo tablet. 6. Klepni na Synchronizovat teď. Tímhle se odběry nahrají na server. Na dalším zařízení uděláš stejný postup, jen vybereš nebo vytvoříš jiné zařízení a odběry se stáhnou.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 10,
+          "end": 35
+        },
+        {
+          "type": "bold",
+          "start": 65,
+          "end": 87
+        },
+        {
+          "type": "code",
+          "start": 141,
+          "end": 168
+        },
+        {
+          "type": "bold",
+          "start": 178,
+          "end": 191
+        },
+        {
+          "type": "bold",
+          "start": 250,
+          "end": 258
+        },
+        {
+          "type": "code",
+          "start": 315,
+          "end": 322
+        },
+        {
+          "type": "code",
+          "start": 328,
+          "end": 334
+        },
+        {
+          "type": "bold",
+          "start": 349,
+          "end": 367
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading3",
+      "text": "Adresa musí být celá, včetně https://"
+    },
+    {
+      "type": "text",
+      "text": "To je nejčastější chyba. Zadej celou adresu včetně https://, tedy https://podsync.oscloud.cz/.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 31,
+          "end": 59
+        },
+        {
+          "type": "code",
+          "start": 51,
+          "end": 59
+        },
+        {
+          "type": "code",
+          "start": 66,
+          "end": 93
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Samotné podsync.oscloud.cz nefunguje, stejně jako zkrácená doména nebo http://. Klient adresu nedoplňuje, bere ji doslova.",
+      "formatting": [
+        {
+          "type": "code",
+          "start": 8,
+          "end": 26
+        },
+        {
+          "type": "code",
+          "start": 71,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Poznámka pro gPodder desktop"
+    },
+    {
+      "type": "text",
+      "text": "Desktopový gPodder neumí pracovat s heslem tak, jak to dělá AntennaPod. Proto oPodSync používá „Secret GPodder username\", tedy tajné unikátní uživatelské jméno, které slouží jako přihlášení místo hesla.",
+      "formatting": [
+        {
+          "type": "bold",
+          "start": 95,
+          "end": 120
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Najdeš ho po přihlášení na webu oPodSync ve svém účtu. V desktopovém klientu ho zadej jako uživatelské jméno. Ber ho jako heslo: nesdílej ho a nedávej ho do veřejných screenshotů."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Časté problémy"
+    },
+    {
+      "type": "table",
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "header": [
+        {
+          "text": "Problém"
+        },
+        {
+          "text": "Příčina"
+        },
+        {
+          "text": "Řešení"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "text": "Server se nepodaří připojit"
+          },
+          {
+            "text": "Adresa zadaná bez https://",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 18,
+                "end": 26
+              }
+            ]
+          },
+          {
+            "text": "Zadej celou adresu: https://podsync.oscloud.cz/",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 20,
+                "end": 47
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "Server se nepodaří připojit"
+          },
+          {
+            "text": "Zkrácená nebo neúplná doména"
+          },
+          {
+            "text": "Zadej celou doménu podsync.oscloud.cz",
+            "formatting": [
+              {
+                "type": "code",
+                "start": 19,
+                "end": 37
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "text": "Přihlášení projde, ale synchronizace nefunguje"
+          },
+          {
+            "text": "V klientu zůstal uložený starý host"
+          },
+          {
+            "text": "Odpoj synchronizaci, odhlas se a přihlas se znovu"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Když si nevíš rady, začni odpojením a novým přihlášením. Vyřeší to většinu případů, kdy klient drží starou konfiguraci."
+    },
+    {
+      "type": "text",
+      "subtype": "heading2",
+      "text": "Závěr"
+    },
+    {
+      "type": "text",
+      "text": "oPodSync je přesně ten typ služby, který má smysl mít na vlastním hostingu: malý, jednoduchý, a přitom denně užitečný. Nastavení zabere pár minut a pak už jen posloucháš."
+    },
+    {
+      "type": "text",
+      "text": "Víc o službách, které provozujeme, najdeš na oscloud.cz. Vyzkoušej to a dej nám vědět, jak ti sync funguje.",
+      "formatting": [
+        {
+          "type": "link",
+          "url": "https://oscloud.cz",
+          "start": 45,
+          "end": 55
+        }
+      ]
+    }
+  ],
+  "source": {
+    "platform": "manual"
+  },
+  "mastodon_url": "https://mamutovo.cz/@oscloud/117330269152405997"
+}
